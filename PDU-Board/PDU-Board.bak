@@ -1,0 +1,196 @@
+EESchema Schematic File Version 4
+LIBS:PDU-Board-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x02_Female J1
+U 1 1 5BE089DE
+P 6700 2950
+F 0 "J1" H 6727 2926 50  0000 L CNN
+F 1 "Motor-1" H 6727 2835 50  0000 L CNN
+F 2 "Vicor:XT60" H 6700 2950 50  0001 C CNN
+F 3 "~" H 6700 2950 50  0001 C CNN
+	1    6700 2950
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 5BE08A3C
+P 6700 4000
+F 0 "J2" H 6727 3976 50  0000 L CNN
+F 1 "Motor-2" H 6727 3885 50  0000 L CNN
+F 2 "Vicor:XT60" H 6700 4000 50  0001 C CNN
+F 3 "~" H 6700 4000 50  0001 C CNN
+	1    6700 4000
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J3
+U 1 1 5BE08A55
+P 6700 3450
+F 0 "J3" H 6727 3426 50  0000 L CNN
+F 1 "Mother Board" H 6727 3335 50  0000 L CNN
+F 2 "Vicor:XT60" H 6700 3450 50  0001 C CNN
+F 3 "~" H 6700 3450 50  0001 C CNN
+	1    6700 3450
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J0
+U 1 1 5BE08A75
+P 2300 3300
+F 0 "J0" H 2194 3485 50  0000 C CNN
+F 1 "Main Feed" H 2194 3394 50  0000 C CNN
+F 2 "Vicor:XT60" H 2300 3300 50  0001 C CNN
+F 3 "~" H 2300 3300 50  0001 C CNN
+	1    2300 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L PDU-Board-cache:VICOR-DC-DC U1
+U 1 1 5BE0F800
+P 4800 3750
+F 0 "U1" H 4725 4415 50  0000 C CNN
+F 1 "VICOR-DC-DC" H 4725 4324 50  0000 C CNN
+F 2 "Vicor:Vicor-DCDC-Q" H 4800 3750 50  0001 C CNN
+F 3 "" H 4800 3750 50  0001 C CNN
+	1    4800 3750
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2850 3350 3500 3350
+Wire Wire Line
+	6500 3350 5900 3350
+Connection ~ 5900 3350
+Wire Wire Line
+	5900 3900 6500 3900
+Wire Wire Line
+	6100 4000 6500 4000
+Wire Wire Line
+	6100 3450 6500 3450
+Wire Wire Line
+	6100 2950 6500 2950
+Connection ~ 6100 3450
+Wire Wire Line
+	6100 2950 6100 3250
+Connection ~ 6100 3250
+Wire Wire Line
+	6100 3250 6100 3450
+$Comp
+L Device:Fuse 30A1
+U 1 1 5BE135F8
+P 3250 3750
+F 0 "30A1" V 3053 3750 50  0000 C CNN
+F 1 "Fuse" V 3144 3750 50  0000 C CNN
+F 2 "Vicor:30a Fuse" V 3180 3750 50  0001 C CNN
+F 3 "~" H 3250 3750 50  0001 C CNN
+	1    3250 3750
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3100 3450 3100 3750
+Wire Wire Line
+	3400 3750 3650 3750
+Wire Wire Line
+	5450 3250 6100 3250
+$Comp
+L PDU-Board-cache:VICOR-DC-DC U0
+U 1 1 5BE0F643
+P 4800 2850
+F 0 "U0" H 4725 2385 50  0000 C CNN
+F 1 "VICOR-DC-DC" H 4725 2476 50  0000 C CNN
+F 2 "Vicor:Vicor-DCDC-Q" H 4800 2850 50  0001 C CNN
+F 3 "" H 4800 2850 50  0001 C CNN
+	1    4800 2850
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3500 2700 4000 2700
+Wire Wire Line
+	3500 2700 3500 3350
+Wire Wire Line
+	3650 3750 3650 3150
+Wire Wire Line
+	3650 3150 4150 3150
+Wire Wire Line
+	3650 3750 3650 4050
+Wire Wire Line
+	3650 4050 4150 4050
+Connection ~ 3650 3750
+Wire Wire Line
+	3500 3350 3500 3600
+Wire Wire Line
+	3500 3600 4050 3600
+Connection ~ 3500 3350
+Wire Wire Line
+	4150 3850 4050 3850
+Wire Wire Line
+	4050 3850 4050 3600
+Connection ~ 4050 3600
+Wire Wire Line
+	4050 3600 4150 3600
+Wire Wire Line
+	4150 2950 4000 2950
+Wire Wire Line
+	4000 2950 4000 2700
+Connection ~ 4000 2700
+Wire Wire Line
+	4000 2700 4150 2700
+Wire Wire Line
+	5450 2850 5300 2850
+Wire Wire Line
+	5450 2850 5450 3250
+Wire Wire Line
+	5900 3350 5900 3900
+Wire Wire Line
+	5300 3750 6100 3750
+Wire Wire Line
+	6100 3450 6100 3750
+Connection ~ 6100 3750
+Wire Wire Line
+	6100 3750 6100 4000
+Wire Wire Line
+	5900 3900 5900 4100
+Wire Wire Line
+	5900 4100 5300 4100
+Connection ~ 5900 3900
+Wire Wire Line
+	5300 3200 5900 3200
+Wire Wire Line
+	5900 3200 5900 3350
+Wire Wire Line
+	5900 2850 5900 3200
+Wire Wire Line
+	6500 2850 5900 2850
+Connection ~ 5900 3200
+Text GLabel 5900 4100 2    50   Input ~ 0
+48v-Gnd
+Text GLabel 5450 2850 2    50   Input ~ 0
+48v
+Text GLabel 3500 2750 0    50   Input ~ 0
+12v-Gnd
+Text GLabel 3650 4050 0    50   Input ~ 0
+12v
+Wire Wire Line
+	2850 3350 2850 3200
+Wire Wire Line
+	2850 3200 2500 3200
+Wire Wire Line
+	2500 3300 2800 3300
+Wire Wire Line
+	2800 3300 2800 3450
+Wire Wire Line
+	2800 3450 3100 3450
+$EndSCHEMATC
