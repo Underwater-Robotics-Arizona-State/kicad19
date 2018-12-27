@@ -1,16 +1,16 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Blue_ESC
+# Blue_ESC-ESC-ESC-Board-rescue
 #
-DEF Blue_ESC U 0 40 Y Y 1 F N
-F0 "U" 100 -900 50 H V C CNN
-F1 "Blue_ESC" 200 850 50 H V C CNN
+DEF Blue_ESC-ESC-ESC-Board-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 -100 50 H V C CNN
+F1 "Blue_ESC-ESC-ESC-Board-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-S -550 800 550 -900 0 1 0 f
-X 12v+ 1 -400 800 200 D 50 50 1 1 W
+S -550 800 550 -900 0 1 0 N
+X 12v+ 1 -400 1000 200 D 50 50 1 1 I
 X 12v_ground 2 400 1000 200 D 50 50 1 1 I
 X Phase_3 3 -400 -1100 200 U 50 50 1 1 I
 X Phase_2 4 0 -1100 200 U 50 50 1 1 I
