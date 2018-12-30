@@ -15,50 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ESC:Blue_ESC U1
-U 1 1 5C16F1D7
-P 3150 9500
-F 0 "U1" V 2550 9500 50  0000 L CNN
-F 1 "Blue_ESC" V 3750 9500 50  0000 L CNN
-F 2 "Blue_ESC:Blue_ESC" H 3150 9500 50  0001 C CNN
-F 3 "" H 3150 9500 50  0001 C CNN
-	1    3150 9500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L ESC:Blue_ESC U2
-U 1 1 5C16F2CB
-P 3150 7850
-F 0 "U2" V 2550 7850 50  0000 L CNN
-F 1 "Blue_ESC" V 3750 7850 50  0000 L CNN
-F 2 "" H 3150 7850 50  0001 C CNN
-F 3 "" H 3150 7850 50  0001 C CNN
-	1    3150 7850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L ESC:Blue_ESC U3
-U 1 1 5C16F349
-P 3200 6000
-F 0 "U3" V 2600 6000 50  0000 L CNN
-F 1 "Blue_ESC" V 3800 6000 50  0000 L CNN
-F 2 "Blue_ESC:Blue_ESC" H 3200 6000 50  0001 C CNN
-F 3 "" H 3200 6000 50  0001 C CNN
-	1    3200 6000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L ESC:Blue_ESC U4
-U 1 1 5C16F3CD
-P 3200 4450
-F 0 "U4" V 2600 4450 50  0000 L CNN
-F 1 "Blue_ESC" V 3800 4450 50  0000 L CNN
-F 2 "" H 3200 4450 50  0001 C CNN
-F 3 "" H 3200 4450 50  0001 C CNN
-	1    3200 4450
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Connector:Conn_01x02_Female J1
 U 1 1 5C16FC6D
 P 10850 900
@@ -80,14 +36,12 @@ F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 13950 1750 5
 	1    13950 2750
 	1    0    0    -1  
 $EndComp
-Text GLabel 12800 2450 0    50   Input ~ 0
-ESC_1_PWM
-Text GLabel 12800 2750 0    50   Input ~ 0
-U2_PWM
-Text GLabel 12800 3050 0    50   Input ~ 0
-U3_PWM
-Text GLabel 12800 3150 0    50   Input ~ 0
-U4_PWM
+Text GLabel 13450 2750 0    50   Input ~ 0
+PWM_ESC_2
+Text GLabel 13450 3050 0    50   Input ~ 0
+PWM_ESC_3
+Text GLabel 13450 3150 0    50   Input ~ 0
+PWM_ESC_4
 Wire Wire Line
 	4250 9900 4800 9900
 Wire Wire Line
@@ -182,12 +136,6 @@ F 3 "~" V 10600 2975 50  0001 C CNN
 	1    10600 2950
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	12800 2650 13450 2650
-Text GLabel 10900 2450 1    50   Input ~ 0
-SDA_I2c
-Text GLabel 10800 2450 1    50   Input ~ 0
-SLC_I2c
 $Comp
 L Sensor_Current:ACS780xLRTR-100U D1
 U 1 1 5C198CA7
@@ -199,22 +147,10 @@ F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS780-Datasheet.ashx?
 	1    1850 1600
 	1    0    0    -1  
 $EndComp
-Text GLabel 12800 2550 0    50   Input ~ 0
-SDA_I2c
-Text GLabel 12800 2650 0    50   Input ~ 0
-SLC_I2c
-Wire Wire Line
-	13450 2550 12800 2550
-Wire Wire Line
-	12800 2450 13450 2450
-Wire Wire Line
-	12800 2750 13450 2750
-Wire Wire Line
-	12800 3050 13450 3050
-Wire Wire Line
-	12800 3150 13450 3150
-Text GLabel 10700 2450 1    50   Input ~ 0
-PWM_Ground
+Text GLabel 13450 2550 0    50   Input ~ 0
+I2C_SDA
+Text GLabel 13450 2650 0    50   Input ~ 0
+I2C_SLC
 Text GLabel 2150 9400 0    50   Input ~ 0
 PWM_ESC_1
 Wire Notes Line
@@ -237,8 +173,6 @@ Text Notes 10250 700  0    50   ~ 0
 Power Connector\n
 Text Notes 13600 750  0    50   ~ 0
 Ardunio Nano 
-Wire Wire Line
-	10700 2450 10700 2550
 Wire Wire Line
 	10800 2450 10800 2550
 Wire Wire Line
@@ -264,14 +198,6 @@ F 3 "~" V 10600 4875 50  0001 C CNN
 	1    10600 4850
 	0    -1   -1   0   
 $EndComp
-Text GLabel 10900 4350 1    50   Input ~ 0
-SDA_I2c
-Text GLabel 10800 4350 1    50   Input ~ 0
-SLC_I2c
-Text GLabel 10700 4350 1    50   Input ~ 0
-PWM_Ground
-Wire Wire Line
-	10700 4350 10700 4450
 Wire Wire Line
 	10800 4350 10800 4450
 Wire Wire Line
@@ -445,7 +371,7 @@ Wire Notes Line
 	1150 3400 1150 10500
 Wire Notes Line
 	1150 10500 5350 10500
-Text Notes 1300 6550 3    50   ~ 0
+Text Notes 2900 3550 0    50   ~ 0
 ESC to Connectors\n
 $Comp
 L power:GND #PWR?
@@ -784,4 +710,86 @@ Text GLabel 2200 6400 0    50   Input ~ 0
 Power_ESC_3
 Text GLabel 2200 4850 0    50   Input ~ 0
 Power_ESC_4
+$Comp
+L ESC-Board-cache:ESC:Blue_ESC U4
+U 1 1 5C31FC02
+P 3200 4450
+F 0 "U4" V 2550 4450 50  0000 C CNN
+F 1 "ESC:Blue_ESC" V 3824 4400 50  0000 C CNN
+F 2 "" H 3200 4450 50  0001 C CNN
+F 3 "" H 3200 4450 50  0001 C CNN
+	1    3200 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ESC-Board-cache:ESC:Blue_ESC U3
+U 1 1 5C324647
+P 3200 6000
+F 0 "U3" V 2550 6000 50  0000 C CNN
+F 1 "ESC:Blue_ESC" V 3824 5950 50  0000 C CNN
+F 2 "" H 3200 6000 50  0001 C CNN
+F 3 "" H 3200 6000 50  0001 C CNN
+	1    3200 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ESC-Board-cache:ESC:Blue_ESC U2
+U 1 1 5C32481F
+P 3150 7850
+F 0 "U2" V 2550 7850 50  0000 C CNN
+F 1 "ESC:Blue_ESC" V 3774 7800 50  0000 C CNN
+F 2 "" H 3150 7850 50  0001 C CNN
+F 3 "" H 3150 7850 50  0001 C CNN
+	1    3150 7850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ESC-Board-cache:ESC:Blue_ESC U1
+U 1 1 5C324A6D
+P 3150 9500
+F 0 "U1" V 2550 9500 50  0000 C CNN
+F 1 "ESC:Blue_ESC" V 3774 9450 50  0000 C CNN
+F 2 "" H 3150 9500 50  0001 C CNN
+F 3 "" H 3150 9500 50  0001 C CNN
+	1    3150 9500
+	0    -1   -1   0   
+$EndComp
+Text GLabel 13450 2450 0    50   Input ~ 0
+PWM_ESC_1
+Text GLabel 10900 2450 1    50   Input ~ 0
+I2C_SDA
+Text GLabel 10900 4350 1    50   Input ~ 0
+I2C_SDA
+Text GLabel 10800 4350 1    50   Input ~ 0
+I2C_SLC
+Text GLabel 10800 2450 1    50   Input ~ 0
+I2C_SLC
+$Comp
+L power:GND #PWR?
+U 1 1 5C325D70
+P 10700 2550
+F 0 "#PWR?" H 10700 2300 50  0001 C CNN
+F 1 "GND" H 10800 2450 50  0000 C CNN
+F 2 "" H 10700 2550 50  0001 C CNN
+F 3 "" H 10700 2550 50  0001 C CNN
+	1    10700 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C325EAF
+P 10700 4450
+F 0 "#PWR?" H 10700 4200 50  0001 C CNN
+F 1 "GND" H 10800 4350 50  0000 C CNN
+F 2 "" H 10700 4450 50  0001 C CNN
+F 3 "" H 10700 4450 50  0001 C CNN
+	1    10700 4450
+	-1   0    0    1   
+$EndComp
+Text GLabel 2150 7750 0    50   Input ~ 0
+PWM_ESC_2
+Text GLabel 2200 5900 0    50   Input ~ 0
+PWM_ESC_3
+Text GLabel 2200 4350 0    50   Input ~ 0
+PWM_ESC_4
 $EndSCHEMATC
