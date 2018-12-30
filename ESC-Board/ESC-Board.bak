@@ -73,8 +73,8 @@ $Comp
 L MCU_Module:Arduino_Nano_v3.x A1
 U 1 1 5C172736
 P 13950 2750
-F 0 "A1" H 13950 1664 50  0000 C CNN
-F 1 "Arduino_Nano_v3.x" H 13950 1573 50  0000 C CNN
+F 0 "A1" H 14450 3600 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" H 14750 1900 50  0000 C CNN
 F 2 "Module:Arduino_Nano" H 14100 1800 50  0001 L CNN
 F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 13950 1750 50  0001 C CNN
 	1    13950 2750
@@ -163,16 +163,14 @@ Wire Wire Line
 $Comp
 L Device:Fuse F5
 U 1 1 5C1BC00C
-P 13850 1450
-F 0 "F5" H 13910 1496 50  0000 L CNN
-F 1 "500m" H 13910 1405 50  0000 L CNN
-F 2 "" V 13780 1450 50  0001 C CNN
-F 3 "~" H 13850 1450 50  0001 C CNN
-	1    13850 1450
+P 13850 1600
+F 0 "F5" H 13900 1650 50  0000 L CNN
+F 1 "500m" H 13900 1550 50  0000 L CNN
+F 2 "" V 13780 1600 50  0001 C CNN
+F 3 "~" H 13850 1600 50  0001 C CNN
+	1    13850 1600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13850 1600 13850 1750
 $Comp
 L Connector:RJ45 I1
 U 1 1 5C1E96BE
@@ -215,22 +213,10 @@ Wire Wire Line
 	12800 3050 13450 3050
 Wire Wire Line
 	12800 3150 13450 3150
-Text GLabel 12800 3750 0    50   Input ~ 0
-PWM_Ground
 Text GLabel 10700 2450 1    50   Input ~ 0
 PWM_Ground
 Text GLabel 2150 9400 0    50   Input ~ 0
 PWM_ESC_1
-Text GLabel 14900 3750 2    50   Input ~ 0
-12v_Ground
-Text GLabel 12800 1200 0    50   Input ~ 0
-12v_Power
-Wire Wire Line
-	14050 3750 14700 3750
-Wire Wire Line
-	12800 1200 13850 1200
-Wire Wire Line
-	13850 1200 13850 1300
 Wire Notes Line
 	11650 4350 11650 600 
 Wire Notes Line
@@ -239,8 +225,6 @@ Wire Notes Line
 	11650 4350 15950 4350
 Wire Notes Line
 	15950 600  15950 4350
-Text GLabel 14900 3850 2    50   Input ~ 0
-Gnd
 Wire Notes Line
 	11500 600  9650 600 
 Wire Notes Line
@@ -380,13 +364,13 @@ F 3 "~" H 6500 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1400 1450 1    50   Input ~ 0
-ESC_1_Power
+Power_ESC_1
 Text GLabel 3100 1450 1    50   Input ~ 0
-ESC_2_Power
+Power_ESC_2
 Text GLabel 4800 1450 1    50   Input ~ 0
-ESC_3_Power
+Power_ESC_3
 Text GLabel 6500 1450 1    50   Input ~ 0
-ESC_4_Power
+Power_ESC_4
 Wire Wire Line
 	6500 1450 6500 1500
 Wire Wire Line
@@ -419,23 +403,6 @@ Wire Wire Line
 	4800 1750 4800 1700
 Wire Wire Line
 	4800 1700 4850 1700
-Text GLabel 1850 1300 1    50   Input ~ 0
-+5v
-Text GLabel 3550 1300 1    50   Input ~ 0
-+5v
-Text GLabel 5250 1300 1    50   Input ~ 0
-+5v
-Text GLabel 6950 1300 1    50   Input ~ 0
-+5v
-Wire Wire Line
-	12800 3750 13950 3750
-Wire Wire Line
-	14900 3850 14700 3850
-Wire Wire Line
-	14700 3850 14700 3750
-Connection ~ 14700 3750
-Wire Wire Line
-	14700 3750 14900 3750
 Text GLabel 14650 2750 2    50   Input ~ 0
 A0
 Text GLabel 14650 2850 2    50   Input ~ 0
@@ -662,4 +629,151 @@ F 3 "" H 2150 9100 50  0001 C CNN
 	1    2150 9100
 	0    1    1    0   
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C2FCCC9
+P 3550 1900
+F 0 "#PWR?" H 3550 1650 50  0001 C CNN
+F 1 "GND" H 3555 1727 50  0000 C CNN
+F 2 "" H 3550 1900 50  0001 C CNN
+F 3 "" H 3550 1900 50  0001 C CNN
+	1    3550 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C2FE789
+P 5250 1900
+F 0 "#PWR?" H 5250 1650 50  0001 C CNN
+F 1 "GND" H 5255 1727 50  0000 C CNN
+F 2 "" H 5250 1900 50  0001 C CNN
+F 3 "" H 5250 1900 50  0001 C CNN
+	1    5250 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C30031A
+P 6950 1900
+F 0 "#PWR?" H 6950 1650 50  0001 C CNN
+F 1 "GND" H 6955 1727 50  0000 C CNN
+F 2 "" H 6950 1900 50  0001 C CNN
+F 3 "" H 6950 1900 50  0001 C CNN
+	1    6950 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C301ED1
+P 1850 1900
+F 0 "#PWR?" H 1850 1650 50  0001 C CNN
+F 1 "GND" H 1855 1727 50  0000 C CNN
+F 2 "" H 1850 1900 50  0001 C CNN
+F 3 "" H 1850 1900 50  0001 C CNN
+	1    1850 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5C30594E
+P 1850 1300
+F 0 "#PWR?" H 1850 1150 50  0001 C CNN
+F 1 "+5V" H 1865 1473 50  0000 C CNN
+F 2 "" H 1850 1300 50  0001 C CNN
+F 3 "" H 1850 1300 50  0001 C CNN
+	1    1850 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5C306127
+P 3550 1300
+F 0 "#PWR?" H 3550 1150 50  0001 C CNN
+F 1 "+5V" H 3565 1473 50  0000 C CNN
+F 2 "" H 3550 1300 50  0001 C CNN
+F 3 "" H 3550 1300 50  0001 C CNN
+	1    3550 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5C307BE7
+P 5250 1300
+F 0 "#PWR?" H 5250 1150 50  0001 C CNN
+F 1 "+5V" H 5265 1473 50  0000 C CNN
+F 2 "" H 5250 1300 50  0001 C CNN
+F 3 "" H 5250 1300 50  0001 C CNN
+	1    5250 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5C3096A7
+P 6950 1300
+F 0 "#PWR?" H 6950 1150 50  0001 C CNN
+F 1 "+5V" H 6965 1473 50  0000 C CNN
+F 2 "" H 6950 1300 50  0001 C CNN
+F 3 "" H 6950 1300 50  0001 C CNN
+	1    6950 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C3103D6
+P 10650 1000
+F 0 "#PWR?" H 10650 750 50  0001 C CNN
+F 1 "GND" V 10655 872 50  0000 R CNN
+F 2 "" H 10650 1000 50  0001 C CNN
+F 3 "" H 10650 1000 50  0001 C CNN
+	1    10650 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5C3126B1
+P 13850 1450
+F 0 "#PWR?" H 13850 1300 50  0001 C CNN
+F 1 "+12V" H 13865 1623 50  0000 C CNN
+F 2 "" H 13850 1450 50  0001 C CNN
+F 3 "" H 13850 1450 50  0001 C CNN
+	1    13850 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5C312ED2
+P 14150 1750
+F 0 "#PWR?" H 14150 1600 50  0001 C CNN
+F 1 "+5V" H 14250 1800 50  0000 C CNN
+F 2 "" H 14150 1750 50  0001 C CNN
+F 3 "" H 14150 1750 50  0001 C CNN
+	1    14150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C3168F6
+P 14050 3750
+F 0 "#PWR?" H 14050 3500 50  0001 C CNN
+F 1 "GND" H 14200 3650 50  0000 C CNN
+F 2 "" H 14050 3750 50  0001 C CNN
+F 3 "" H 14050 3750 50  0001 C CNN
+	1    14050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C316D7F
+P 13950 3750
+F 0 "#PWR?" H 13950 3500 50  0001 C CNN
+F 1 "GND" H 13800 3650 50  0000 C CNN
+F 2 "" H 13950 3750 50  0001 C CNN
+F 3 "" H 13950 3750 50  0001 C CNN
+	1    13950 3750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 13450 2350
+NoConn ~ 13450 2250
+NoConn ~ 13450 2150
+NoConn ~ 14450 2550
 $EndSCHEMATC
