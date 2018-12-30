@@ -80,10 +80,6 @@ F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 13950 1750 5
 	1    13950 2750
 	1    0    0    -1  
 $EndComp
-Text GLabel 1950 4000 1    50   Input ~ 0
-PWM_Ground
-Text GLabel 10500 1000 0    50   Input ~ 0
-12v_Ground
 Text GLabel 10500 900  0    50   Input ~ 0
 12v_Power
 Text GLabel 12800 2450 0    50   Input ~ 0
@@ -271,12 +267,6 @@ Text GLabel 12800 3750 0    50   Input ~ 0
 PWM_Ground
 Text GLabel 10700 2450 1    50   Input ~ 0
 PWM_Ground
-Text GLabel 3600 4000 1    50   Input ~ 0
-PWM_Ground
-Text GLabel 5450 4050 1    50   Input ~ 0
-PWM_Ground
-Text GLabel 7000 4050 1    50   Input ~ 0
-PWM_Ground
 Text GLabel 2150 4000 1    50   Input ~ 0
 U1_PWM
 Text GLabel 3800 4000 1    50   Input ~ 0
@@ -291,8 +281,6 @@ Text GLabel 12800 1200 0    50   Input ~ 0
 12v_Power
 Wire Wire Line
 	10500 900  10650 900 
-Wire Wire Line
-	10650 1000 10500 1000
 Wire Wire Line
 	14050 3750 14700 3750
 Wire Wire Line
@@ -534,22 +522,6 @@ Wire Wire Line
 Connection ~ 14700 3750
 Wire Wire Line
 	14700 3750 14900 3750
-Text GLabel 3550 2150 3    50   Input ~ 0
-Gnd
-Wire Wire Line
-	3550 2150 3550 1900
-Text GLabel 5250 2150 3    50   Input ~ 0
-Gnd
-Wire Wire Line
-	5250 2150 5250 1900
-Text GLabel 1850 2150 3    50   Input ~ 0
-Gnd
-Wire Wire Line
-	1850 2150 1850 1900
-Text GLabel 6950 2150 3    50   Input ~ 0
-Gnd
-Wire Wire Line
-	6950 2150 6950 1900
 Text GLabel 14650 2750 2    50   Input ~ 0
 A0
 Text GLabel 14650 2850 2    50   Input ~ 0
@@ -610,4 +582,15 @@ Wire Notes Line
 	1050 3000 1050 7200
 Text Notes 5000 3150 2    50   ~ 0
 ESC to Connectors\n
+$Comp
+L power:GND #PWR?
+U 1 1 5C26AD26
+P 3550 3450
+F 0 "#PWR?" H 3550 3200 50  0001 C CNN
+F 1 "GND" H 3555 3277 50  0000 C CNN
+F 2 "" H 3550 3450 50  0001 C CNN
+F 3 "" H 3550 3450 50  0001 C CNN
+	1    3550 3450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
