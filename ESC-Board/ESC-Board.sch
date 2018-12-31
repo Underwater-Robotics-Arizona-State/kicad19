@@ -15,11 +15,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_01x02_Female J1
+L Connector_Generic:Conn_01x02 J3
 U 1 1 5C16FC6D
 P 10850 900
-F 0 "J1" H 10878 876 50  0000 L CNN
-F 1 "XT_60" H 10878 785 50  0000 L CNN
+F 0 "J3" H 10900 1000 50  0000 L CNN
+F 1 "XT_60" H 10900 700 50  0000 L CNN
 F 2 "" H 10850 900 50  0001 C CNN
 F 3 "" H 10850 900 50  0001 C CNN
 	1    10850 900 
@@ -330,13 +330,13 @@ Wire Wire Line
 Wire Wire Line
 	4800 1700 4850 1700
 Text GLabel 14650 2750 2    50   Input ~ 0
-A0
+Current_A0
 Text GLabel 14650 2850 2    50   Input ~ 0
-A1
+Current_A1
 Text GLabel 14650 2950 2    50   Input ~ 0
-A2
+Current_A2
 Text GLabel 14650 3050 2    50   Input ~ 0
-A3
+Current_A3
 Wire Wire Line
 	14450 2750 14650 2750
 Wire Wire Line
@@ -346,13 +346,13 @@ Wire Wire Line
 Wire Wire Line
 	14650 3050 14450 3050
 Text GLabel 2250 1600 2    50   Input ~ 0
-A0
+Current_A0
 Text GLabel 3950 1600 2    50   Input ~ 0
-A1
+Current_A1
 Text GLabel 5650 1600 2    50   Input ~ 0
-A2
+Current_A2
 Text GLabel 7350 1600 2    50   Input ~ 0
-A3
+Current_A3
 Wire Notes Line
 	8300 600  8300 2800
 Wire Notes Line
@@ -711,7 +711,7 @@ Power_ESC_3
 Text GLabel 2100 4400 0    50   Input ~ 0
 Power_ESC_4
 $Comp
-L ESC-Board-cache:ESC:Blue_ESC U4
+L ESC:Blue_ESC U4
 U 1 1 5C31FC02
 P 3100 4000
 F 0 "U4" V 2450 4000 50  0000 C CNN
@@ -722,7 +722,7 @@ F 3 "" H 3100 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ESC-Board-cache:ESC:Blue_ESC U3
+L ESC:Blue_ESC U3
 U 1 1 5C324647
 P 3100 5550
 F 0 "U3" V 2450 5550 50  0000 C CNN
@@ -733,7 +733,7 @@ F 3 "" H 3100 5550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ESC-Board-cache:ESC:Blue_ESC U2
+L ESC:Blue_ESC U2
 U 1 1 5C32481F
 P 3050 7400
 F 0 "U2" V 2450 7400 50  0000 C CNN
@@ -744,7 +744,7 @@ F 3 "" H 3050 7400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ESC-Board-cache:ESC:Blue_ESC U1
+L ESC:Blue_ESC U1
 U 1 1 5C324A6D
 P 3050 9050
 F 0 "U1" V 2450 9050 50  0000 C CNN
@@ -792,4 +792,102 @@ Text GLabel 2100 5450 0    50   Input ~ 0
 PWM_ESC_3
 Text GLabel 2100 3900 0    50   Input ~ 0
 PWM_ESC_4
+$Comp
+L Mechanical:MountingHole MH1
+U 1 1 5C29DF4F
+P 14500 4850
+F 0 "MH1" H 14600 4896 50  0000 L CNN
+F 1 "MountingHole" H 14600 4805 50  0000 L CNN
+F 2 "" H 14500 4850 50  0001 C CNN
+F 3 "~" H 14500 4850 50  0001 C CNN
+	1    14500 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH2
+U 1 1 5C29E098
+P 14500 5050
+F 0 "MH2" H 14600 5096 50  0000 L CNN
+F 1 "MountingHole" H 14600 5005 50  0000 L CNN
+F 2 "" H 14500 5050 50  0001 C CNN
+F 3 "~" H 14500 5050 50  0001 C CNN
+	1    14500 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH4
+U 1 1 5C29E0EA
+P 14500 5450
+F 0 "MH4" H 14600 5496 50  0000 L CNN
+F 1 "MountingHole" H 14600 5405 50  0000 L CNN
+F 2 "" H 14500 5450 50  0001 C CNN
+F 3 "~" H 14500 5450 50  0001 C CNN
+	1    14500 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH3
+U 1 1 5C29E146
+P 14500 5250
+F 0 "MH3" H 14600 5296 50  0000 L CNN
+F 1 "MountingHole" H 14600 5205 50  0000 L CNN
+F 2 "" H 14500 5250 50  0001 C CNN
+F 3 "~" H 14500 5250 50  0001 C CNN
+	1    14500 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH5
+U 1 1 5C29E1ED
+P 15250 4850
+F 0 "MH5" H 15350 4896 50  0000 L CNN
+F 1 "MountingHole" H 15350 4805 50  0000 L CNN
+F 2 "" H 15250 4850 50  0001 C CNN
+F 3 "~" H 15250 4850 50  0001 C CNN
+	1    15250 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH6
+U 1 1 5C29E245
+P 15250 5050
+F 0 "MH6" H 15350 5096 50  0000 L CNN
+F 1 "MountingHole" H 15350 5005 50  0000 L CNN
+F 2 "" H 15250 5050 50  0001 C CNN
+F 3 "~" H 15250 5050 50  0001 C CNN
+	1    15250 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH7
+U 1 1 5C29E29F
+P 15250 5250
+F 0 "MH7" H 15350 5296 50  0000 L CNN
+F 1 "MountingHole" H 15350 5205 50  0000 L CNN
+F 2 "" H 15250 5250 50  0001 C CNN
+F 3 "~" H 15250 5250 50  0001 C CNN
+	1    15250 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH8
+U 1 1 5C29E2FB
+P 15250 5450
+F 0 "MH8" H 15350 5496 50  0000 L CNN
+F 1 "MountingHole" H 15350 5405 50  0000 L CNN
+F 2 "" H 15250 5450 50  0001 C CNN
+F 3 "~" H 15250 5450 50  0001 C CNN
+	1    15250 5450
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	14250 5600 15950 5600
+Wire Notes Line
+	15950 5600 15950 4450
+Wire Notes Line
+	15950 4450 14250 4450
+Wire Notes Line
+	14250 4450 14250 5600
+Text Notes 14800 4600 0    50   ~ 0
+Mounting Holes\n
 $EndSCHEMATC

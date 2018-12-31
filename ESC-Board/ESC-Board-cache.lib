@@ -1,26 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector:Conn_01x02_Female
-#
-DEF Connector:Conn_01x02_Female J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "Connector:Conn_01x02_Female" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
-A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
-P 2 1 1 6 -50 -100 -20 -100 N
-P 2 1 1 6 -50 0 -20 0 N
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-X Pin_2 2 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Connector:RJ45
 #
 DEF Connector:RJ45 J 0 40 Y Y 1 F N
@@ -60,6 +40,25 @@ X ~ 5 400 100 100 L 50 50 1 1 P
 X ~ 6 400 200 100 L 50 50 1 1 P
 X ~ 7 400 300 100 L 50 50 1 1 P
 X ~ 8 400 400 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic:Conn_01x02
+#
+DEF Connector_Generic:Conn_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Generic:Conn_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -108,22 +107,22 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ESC-Board-cache:ESC:Blue_ESC
+# ESC:Blue_ESC
 #
-DEF ESC-Board-cache:ESC:Blue_ESC U 0 40 Y Y 1 F N
+DEF ESC:Blue_ESC U 0 40 Y Y 1 F N
 F0 "U" 0 -100 50 H V C CNN
-F1 "ESC-Board-cache:ESC:Blue_ESC" 0 150 50 H V C CNN
+F1 "ESC:Blue_ESC" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 S -550 800 550 -900 0 1 0 f
 X 12v+ 1 -400 1000 200 D 50 50 1 1 I
-X 12v_ground 2 400 1000 200 D 50 50 1 1 I
+X GND 2 400 1000 200 D 50 50 1 1 I
 X Phase_3 3 -400 -1100 200 U 50 50 1 1 I
 X Phase_2 4 0 -1100 200 U 50 50 1 1 I
 X Phase_1 5 400 -1100 200 U 50 50 1 1 I
 X PWM 6 100 1000 200 D 50 50 1 1 I
-X PWM_ground 7 -100 1000 200 D 50 50 1 1 I
+X SIG_GND 7 -100 1000 200 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -170,6 +169,21 @@ X D3 6 -500 300 100 R 50 50 1 1 B
 X D4 7 -500 200 100 R 50 50 1 1 B
 X D5 8 -500 100 100 R 50 50 1 1 B
 X D6 9 -500 0 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# Mechanical:MountingHole
+#
+DEF Mechanical:MountingHole MH 0 40 Y Y 1 F N
+F0 "MH" 0 200 50 H V C CNN
+F1 "Mechanical:MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
