@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Colton Kohnen\Documents\GitHub\kicad19\ESC-Board\ESC-Board.sch</source>
+    <date>12/30/2018 4:40:55 PM</date>
+    <tool>Eeschema (5.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ESC_Board</title>
+        <company>ASUR</company>
+        <rev>2.0</rev>
+        <date>2018-12-30</date>
+        <source>ESC-Board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J3">
+      <value>XT_60</value>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C16FC6D</tstamp>
+    </comp>
+    <comp ref="A1">
+      <value>Arduino_Nano_v3.x</value>
+      <footprint>Module:Arduino_Nano</footprint>
+      <libsource lib="MCU_Module" part="Arduino_Nano_v3.x" description="Arduino Nano v3.x"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C172736</tstamp>
+    </comp>
+    <comp ref="F5">
+      <value>500m</value>
+      <libsource lib="Device" part="Fuse" description="Fuse, generic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1BC00C</tstamp>
+    </comp>
+    <comp ref="I1">
+      <value>RJ45</value>
+      <libsource lib="Connector" part="RJ45" description="RJ connector, 8P8C (8 positions 8 connected)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1E96BE</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>ACS780xLRTR-100U</value>
+      <footprint>Sensor_Current:Allegro_PSOF-7_4.8x6.4mm_P1.60mm</footprint>
+      <libsource lib="Sensor_Current" part="ACS780xLRTR-100U" description="100A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 40mV/A, PSOF-7"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C198CA7</tstamp>
+    </comp>
+    <comp ref="I2">
+      <value>RJ45</value>
+      <libsource lib="Connector" part="RJ45" description="RJ connector, 8P8C (8 positions 8 connected)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C299349</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>ACS780xLRTR-100U</value>
+      <footprint>Sensor_Current:Allegro_PSOF-7_4.8x6.4mm_P1.60mm</footprint>
+      <libsource lib="Sensor_Current" part="ACS780xLRTR-100U" description="100A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 40mV/A, PSOF-7"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C2A52B8</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>ACS780xLRTR-100U</value>
+      <footprint>Sensor_Current:Allegro_PSOF-7_4.8x6.4mm_P1.60mm</footprint>
+      <libsource lib="Sensor_Current" part="ACS780xLRTR-100U" description="100A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 40mV/A, PSOF-7"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C2A6F93</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>ACS780xLRTR-100U</value>
+      <footprint>Sensor_Current:Allegro_PSOF-7_4.8x6.4mm_P1.60mm</footprint>
+      <libsource lib="Sensor_Current" part="ACS780xLRTR-100U" description="100A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 40mV/A, PSOF-7"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C2B4ED1</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>10/15</value>
+      <libsource lib="Device" part="Fuse" description="Fuse, generic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C2B7E35</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>10/15</value>
+      <libsource lib="Device" part="Fuse" description="Fuse, generic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C2B849A</tstamp>
+    </comp>
+    <comp ref="F3">
+      <value>10/15</value>
+      <libsource lib="Device" part="Fuse" description="Fuse, generic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C2BE198</tstamp>
+    </comp>
+    <comp ref="F4">
+      <value>10/15</value>
+      <libsource lib="Device" part="Fuse" description="Fuse, generic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C2BF863</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Molex</value>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C2A1A3B</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Molex</value>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C2CF159</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>ESC:Blue_ESC</value>
+      <libsource lib="ESC" part="Blue_ESC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C31FC02</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>ESC:Blue_ESC</value>
+      <libsource lib="ESC" part="Blue_ESC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C324647</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ESC:Blue_ESC</value>
+      <libsource lib="ESC" part="Blue_ESC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C32481F</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ESC:Blue_ESC</value>
+      <libsource lib="ESC" part="Blue_ESC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C324A6D</tstamp>
+    </comp>
+    <comp ref="MH1">
+      <value>MountingHole</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C29DF4F</tstamp>
+    </comp>
+    <comp ref="MH2">
+      <value>MountingHole</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C29E098</tstamp>
+    </comp>
+    <comp ref="MH4">
+      <value>MountingHole</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C29E0EA</tstamp>
+    </comp>
+    <comp ref="MH3">
+      <value>MountingHole</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C29E146</tstamp>
+    </comp>
+    <comp ref="MH5">
+      <value>MountingHole</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C29E1ED</tstamp>
+    </comp>
+    <comp ref="MH6">
+      <value>MountingHole</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C29E245</tstamp>
+    </comp>
+    <comp ref="MH7">
+      <value>MountingHole</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C29E29F</tstamp>
+    </comp>
+    <comp ref="MH8">
+      <value>MountingHole</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C29E2FB</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="8P8C">
+      <aliases>
+        <alias>RJ31</alias>
+        <alias>RJ32</alias>
+        <alias>RJ33</alias>
+        <alias>RJ34</alias>
+        <alias>RJ35</alias>
+        <alias>RJ41</alias>
+        <alias>RJ45</alias>
+        <alias>RJ49</alias>
+        <alias>RJ61</alias>
+      </aliases>
+      <description>RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>8P8C*</fp>
+        <fp>RJ31*</fp>
+        <fp>RJ32*</fp>
+        <fp>RJ33*</fp>
+        <fp>RJ34*</fp>
+        <fp>RJ35*</fp>
+        <fp>RJ41*</fp>
+        <fp>RJ45*</fp>
+        <fp>RJ49*</fp>
+        <fp>RJ61*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">8P8C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse, generic</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESC" part="Blue_ESC">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Blue_ESC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="12v+" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="Phase_3" type="input"/>
+        <pin num="4" name="Phase_2" type="input"/>
+        <pin num="5" name="Phase_1" type="input"/>
+        <pin num="6" name="PWM" type="input"/>
+        <pin num="7" name="SIG_GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_Nano_v3.x">
+      <aliases>
+        <alias>Arduino_Nano_v2.x</alias>
+      </aliases>
+      <description>Arduino Nano v3.x</description>
+      <docs>http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Nano_v3.x</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="BiDi"/>
+        <pin num="2" name="D0/RX" type="BiDi"/>
+        <pin num="3" name="RESET" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="BiDi"/>
+        <pin num="6" name="D3" type="BiDi"/>
+        <pin num="7" name="D4" type="BiDi"/>
+        <pin num="8" name="D5" type="BiDi"/>
+        <pin num="9" name="D6" type="BiDi"/>
+        <pin num="10" name="D7" type="BiDi"/>
+        <pin num="11" name="D8" type="BiDi"/>
+        <pin num="12" name="D9" type="BiDi"/>
+        <pin num="13" name="D10" type="BiDi"/>
+        <pin num="14" name="D11" type="BiDi"/>
+        <pin num="15" name="D12" type="BiDi"/>
+        <pin num="16" name="D13" type="BiDi"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="BiDi"/>
+        <pin num="20" name="A1" type="BiDi"/>
+        <pin num="21" name="A2" type="BiDi"/>
+        <pin num="22" name="A3" type="BiDi"/>
+        <pin num="23" name="A4" type="BiDi"/>
+        <pin num="24" name="A5" type="BiDi"/>
+        <pin num="25" name="A6" type="BiDi"/>
+        <pin num="26" name="A7" type="BiDi"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="RESET" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MH</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Sensor_Current" part="ACS780xLRTR-050B">
+      <aliases>
+        <alias>ACS780xLRTR-050U</alias>
+        <alias>ACS780xLRTR-100B</alias>
+        <alias>ACS780xLRTR-100U</alias>
+        <alias>ACS780xLRTR-150B</alias>
+        <alias>ACS780xLRTR-150U</alias>
+        <alias>ACS781xLRTR-050B</alias>
+        <alias>ACS781xLRTR-050U</alias>
+        <alias>ACS781xLRTR-100B</alias>
+        <alias>ACS781xLRTR-100U</alias>
+        <alias>ACS781xLRTR-150B</alias>
+        <alias>ACS781xLRTR-150U</alias>
+      </aliases>
+      <description>±50A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 40mV/A, PSOF-7</description>
+      <docs>http://www.allegromicro.com/~/media/Files/Datasheets/ACS780-Datasheet.ashx?la=en</docs>
+      <footprints>
+        <fp>Allegro*PSOF*4.8x6.4mm*P1.60mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ACS780xLRTR-050B</field>
+        <field name="Footprint">Sensor_Current:Allegro_PSOF-7_4.8x6.4mm_P1.60mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VOUT" type="output"/>
+        <pin num="4" name="NC" type="passive"/>
+        <pin num="5" name="IP+" type="passive"/>
+        <pin num="6" name="IP-" type="passive"/>
+        <pin num="7" name="NC" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="ESC">
+      <uri>C:\Users\Colton Kohnen\Documents\Nasgr\Kicad\ESC-board\ESC-Board\ESC.lib</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_Module.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="Sensor_Current">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Sensor_Current.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="F2" pin="2"/>
+      <node ref="F5" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="F4" pin="2"/>
+      <node ref="F3" pin="2"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="A1" pin="4"/>
+      <node ref="J3" pin="2"/>
+      <node ref="I1" pin="3"/>
+      <node ref="A1" pin="29"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U4" pin="7"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U3" pin="7"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="I2" pin="3"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="3" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="4" name="Net-(J2-Pad5)">
+      <node ref="U1" pin="4"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="5" name="Net-(J2-Pad4)">
+      <node ref="U1" pin="5"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="6" name="Net-(J2-Pad3)">
+      <node ref="U2" pin="3"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="7" name="Net-(J1-Pad4)">
+      <node ref="U3" pin="5"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="8" name="Net-(J1-Pad3)">
+      <node ref="U4" pin="3"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="9" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="10" name="Net-(D1-Pad7)">
+      <node ref="D1" pin="7"/>
+    </net>
+    <net code="11" name="Net-(A1-Pad10)">
+      <node ref="A1" pin="10"/>
+    </net>
+    <net code="12" name="Net-(A1-Pad11)">
+      <node ref="A1" pin="11"/>
+    </net>
+    <net code="13" name="Net-(A1-Pad14)">
+      <node ref="A1" pin="14"/>
+    </net>
+    <net code="14" name="Net-(A1-Pad15)">
+      <node ref="A1" pin="15"/>
+    </net>
+    <net code="15" name="Net-(A1-Pad16)">
+      <node ref="A1" pin="16"/>
+    </net>
+    <net code="16" name="Net-(A1-Pad26)">
+      <node ref="A1" pin="26"/>
+    </net>
+    <net code="17" name="Net-(A1-Pad25)">
+      <node ref="A1" pin="25"/>
+    </net>
+    <net code="18" name="Net-(A1-Pad24)">
+      <node ref="A1" pin="24"/>
+    </net>
+    <net code="19" name="Net-(A1-Pad23)">
+      <node ref="A1" pin="23"/>
+    </net>
+    <net code="20" name="Net-(D1-Pad4)">
+      <node ref="D1" pin="4"/>
+    </net>
+    <net code="21" name="Net-(D2-Pad7)">
+      <node ref="D2" pin="7"/>
+    </net>
+    <net code="22" name="Net-(D2-Pad4)">
+      <node ref="D2" pin="4"/>
+    </net>
+    <net code="23" name="Net-(D4-Pad7)">
+      <node ref="D4" pin="7"/>
+    </net>
+    <net code="24" name="Net-(D4-Pad4)">
+      <node ref="D4" pin="4"/>
+    </net>
+    <net code="25" name="Net-(D3-Pad7)">
+      <node ref="D3" pin="7"/>
+    </net>
+    <net code="26" name="Net-(D3-Pad4)">
+      <node ref="D3" pin="4"/>
+    </net>
+    <net code="27" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="28" name="Power_ESC_1">
+      <node ref="U1" pin="1"/>
+      <node ref="D1" pin="5"/>
+    </net>
+    <net code="29" name="PWM_ESC_2">
+      <node ref="U2" pin="6"/>
+      <node ref="A1" pin="9"/>
+    </net>
+    <net code="30" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="31" name="Net-(J2-Pad2)">
+      <node ref="U2" pin="4"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="32" name="Power_ESC_2">
+      <node ref="U2" pin="1"/>
+      <node ref="D2" pin="5"/>
+    </net>
+    <net code="33" name="PWM_ESC_3">
+      <node ref="U3" pin="6"/>
+      <node ref="A1" pin="12"/>
+    </net>
+    <net code="34" name="+5V">
+      <node ref="D2" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="A1" pin="27"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="36" name="Net-(A1-Pad28)">
+      <node ref="A1" pin="28"/>
+    </net>
+    <net code="37" name="Net-(A1-Pad3)">
+      <node ref="A1" pin="3"/>
+    </net>
+    <net code="38" name="Net-(A1-Pad5)">
+      <node ref="A1" pin="5"/>
+    </net>
+    <net code="39" name="Net-(A1-Pad1)">
+      <node ref="A1" pin="1"/>
+    </net>
+    <net code="40" name="Net-(J1-Pad5)">
+      <node ref="U3" pin="4"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="41" name="Power_ESC_3">
+      <node ref="U3" pin="1"/>
+      <node ref="D3" pin="5"/>
+    </net>
+    <net code="42" name="PWM_ESC_4">
+      <node ref="A1" pin="13"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="43" name="Power_ESC_4">
+      <node ref="D4" pin="5"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="44" name="Net-(A1-Pad18)">
+      <node ref="A1" pin="18"/>
+    </net>
+    <net code="45" name="Net-(A1-Pad2)">
+      <node ref="A1" pin="2"/>
+    </net>
+    <net code="46" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="47" name="I2C_SLC">
+      <node ref="I1" pin="2"/>
+      <node ref="I2" pin="2"/>
+      <node ref="A1" pin="8"/>
+    </net>
+    <net code="48" name="I2C_SDA">
+      <node ref="I1" pin="1"/>
+      <node ref="I2" pin="1"/>
+      <node ref="A1" pin="7"/>
+    </net>
+    <net code="49" name="Net-(A1-Pad30)">
+      <node ref="F5" pin="2"/>
+      <node ref="A1" pin="30"/>
+    </net>
+    <net code="50" name="Net-(A1-Pad17)">
+      <node ref="A1" pin="17"/>
+    </net>
+    <net code="51" name="PWM_ESC_1">
+      <node ref="A1" pin="6"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="52" name="Net-(I1-Pad4)">
+      <node ref="I1" pin="4"/>
+    </net>
+    <net code="53" name="Net-(D4-Pad6)">
+      <node ref="F4" pin="1"/>
+      <node ref="D4" pin="6"/>
+    </net>
+    <net code="54" name="Net-(D3-Pad6)">
+      <node ref="F3" pin="1"/>
+      <node ref="D3" pin="6"/>
+    </net>
+    <net code="55" name="Current_A3">
+      <node ref="A1" pin="22"/>
+      <node ref="D4" pin="3"/>
+    </net>
+    <net code="56" name="Net-(D1-Pad6)">
+      <node ref="F1" pin="1"/>
+      <node ref="D1" pin="6"/>
+    </net>
+    <net code="57" name="Net-(D2-Pad6)">
+      <node ref="F2" pin="1"/>
+      <node ref="D2" pin="6"/>
+    </net>
+    <net code="58" name="Current_A0">
+      <node ref="D1" pin="3"/>
+      <node ref="A1" pin="19"/>
+    </net>
+    <net code="59" name="Net-(I1-Pad8)">
+      <node ref="I1" pin="8"/>
+    </net>
+    <net code="60" name="Net-(I1-Pad7)">
+      <node ref="I1" pin="7"/>
+    </net>
+    <net code="61" name="Net-(I1-Pad6)">
+      <node ref="I1" pin="6"/>
+    </net>
+    <net code="62" name="Net-(I1-Pad5)">
+      <node ref="I1" pin="5"/>
+    </net>
+    <net code="63" name="Current_A2">
+      <node ref="D3" pin="3"/>
+      <node ref="A1" pin="21"/>
+    </net>
+    <net code="64" name="Current_A1">
+      <node ref="D2" pin="3"/>
+      <node ref="A1" pin="20"/>
+    </net>
+    <net code="65" name="Net-(I2-Pad8)">
+      <node ref="I2" pin="8"/>
+    </net>
+    <net code="66" name="Net-(I2-Pad7)">
+      <node ref="I2" pin="7"/>
+    </net>
+    <net code="67" name="Net-(I2-Pad6)">
+      <node ref="I2" pin="6"/>
+    </net>
+    <net code="68" name="Net-(I2-Pad5)">
+      <node ref="I2" pin="5"/>
+    </net>
+    <net code="69" name="Net-(I2-Pad4)">
+      <node ref="I2" pin="4"/>
+    </net>
+  </nets>
+</export>
