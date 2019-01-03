@@ -695,7 +695,7 @@
   )
 
   (module Blue_ESC:Molex_6pin (layer F.Cu) (tedit 5C296DBC) (tstamp 5C298697)
-    (at 64.842807 86.884258 180)
+    (at 64.842807 99 180)
     (path /5C2A1A3B)
     (fp_text reference J1 (at 0.127 10.033 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -724,7 +724,7 @@
   )
 
   (module Blue_ESC:Molex_6pin (layer F.Cu) (tedit 5C296DBC) (tstamp 5C2986A7)
-    (at 112.842807 86.884258 180)
+    (at 113 99 180)
     (path /5C2CF159)
     (fp_text reference J2 (at 0.127 10.033 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -926,7 +926,7 @@
   )
 
   (module Blue_ESC:Blue_ESC (layer F.Cu) (tedit 5BDBA94B) (tstamp 5C298712)
-    (at 127.842807 80.884258)
+    (at 128 79)
     (path /5C324A6D)
     (fp_text reference U1 (at 0 10.16) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -959,7 +959,7 @@
   )
 
   (module Blue_ESC:Blue_ESC (layer F.Cu) (tedit 5BDBA94B) (tstamp 5C298725)
-    (at 98 81)
+    (at 98 79)
     (path /5C32481F)
     (fp_text reference U2 (at 0 10.16) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -992,7 +992,7 @@
   )
 
   (module Blue_ESC:Blue_ESC (layer F.Cu) (tedit 5BDBA94B) (tstamp 5C298738)
-    (at 79.842807 80.884258)
+    (at 80 79)
     (path /5C324647)
     (fp_text reference U3 (at 0 10.16) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1025,7 +1025,7 @@
   )
 
   (module Blue_ESC:Blue_ESC (layer F.Cu) (tedit 5BDBA94B) (tstamp 5C29874B)
-    (at 49.842807 80.884258)
+    (at 50 79)
     (path /5C31FC02)
     (fp_text reference U4 (at 0 10.16) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
