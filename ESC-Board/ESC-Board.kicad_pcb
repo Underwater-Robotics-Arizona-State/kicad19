@@ -1025,7 +1025,7 @@
   )
 
   (module Blue_ESC:XT60 (layer F.Cu) (tedit 572BCE8E) (tstamp 5C2986BF)
-    (at 141 94 90)
+    (at 142 59.5 90)
     (path /5C16FC6D)
     (fp_text reference J3 (at 3.556 6.096 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1164,10 +1164,10 @@
     )
   )
 
-  (gr_line (start 36 46) (end 36 54.7376) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 36 108) (end 36 54) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 190 108) (end 36 108) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 189.992 46) (end 36 46) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 190 108) (end 190 46) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 35 45) (end 35 54) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 35 109) (end 35 54) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 191 109) (end 35 109) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 191 45) (end 35 45) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 191 109) (end 191 45) (layer Edge.Cuts) (width 0.15))
 
 )
