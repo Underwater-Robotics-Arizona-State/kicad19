@@ -237,7 +237,7 @@
   )
 
   (module Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering (layer F.Cu) (tedit 0) (tstamp 5C298627)
-    (at 83 94 90)
+    (at 84 94 90)
     (descr "Fuse, Sicherung, SMD1206, Littlefuse-Wickmann 433 Series, Hand Soldering,")
     (tags "Fuse Sicherung SMD1206 Littlefuse-Wickmann 433 Series Hand Soldering ")
     (path /5C2B849A)
@@ -265,7 +265,7 @@
   )
 
   (module Blue_ESC:Allegro_PSOF-7_4.8x6.4mm_Pitch1.60mm (layer F.Cu) (tedit 5A04B58C) (tstamp 5C2985A4)
-    (at 47 94 270)
+    (at 46 94 270)
     (descr "Allegro Microsystems PSOF-7, 4.8x6.4mm Body, 1.60mm Pitch (http://www.allegromicro.com/~/media/Files/Datasheets/ACS780-Datasheet.ashx)")
     (tags "Allegro PSOF-7")
     (path /5C198CA7)
@@ -379,7 +379,7 @@
   )
 
   (module Blue_ESC:Allegro_PSOF-7_4.8x6.4mm_Pitch1.60mm (layer F.Cu) (tedit 5A04B58C) (tstamp 5C2985E6)
-    (at 95.6564 94.108 270)
+    (at 94 94 270)
     (descr "Allegro Microsystems PSOF-7, 4.8x6.4mm Body, 1.60mm Pitch (http://www.allegromicro.com/~/media/Files/Datasheets/ACS780-Datasheet.ashx)")
     (tags "Allegro PSOF-7")
     (path /5C2A6F93)
@@ -436,7 +436,7 @@
   )
 
   (module Blue_ESC:Allegro_PSOF-7_4.8x6.4mm_Pitch1.60mm (layer F.Cu) (tedit 5A04B58C) (tstamp 5C298607)
-    (at 123 95.758 270)
+    (at 123 94 270)
     (descr "Allegro Microsystems PSOF-7, 4.8x6.4mm Body, 1.60mm Pitch (http://www.allegromicro.com/~/media/Files/Datasheets/ACS780-Datasheet.ashx)")
     (tags "Allegro PSOF-7")
     (path /5C2B4ED1)
@@ -549,7 +549,7 @@
   )
 
   (module Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering (layer F.Cu) (tedit 0) (tstamp 5C298647)
-    (at 131 95.0224 90)
+    (at 131 94 90)
     (descr "Fuse, Sicherung, SMD1206, Littlefuse-Wickmann 433 Series, Hand Soldering,")
     (tags "Fuse Sicherung SMD1206 Littlefuse-Wickmann 433 Series Hand Soldering ")
     (path /5C2BF863)
@@ -695,7 +695,7 @@
   )
 
   (module Blue_ESC:Molex_6pin (layer F.Cu) (tedit 5C296DBC) (tstamp 5C298697)
-    (at 110.5916 64.4916)
+    (at 110 64)
     (path /5C2A1A3B)
     (fp_text reference J1 (at 0.127 10.033) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -724,7 +724,7 @@
   )
 
   (module Blue_ESC:Molex_6pin (layer F.Cu) (tedit 5C296DBC) (tstamp 5C2986A7)
-    (at 62.0776 64.4408)
+    (at 62 64)
     (path /5C2CF159)
     (fp_text reference J2 (at 0.127 10.033) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -786,7 +786,7 @@
   )
 
   (module Mounting_Holes:MountingHole_3mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C2986CF)
-    (at 186 104)
+    (at 187 105)
     (descr "Mounting Hole 3mm, no annular")
     (tags "mounting hole 3mm no annular")
     (path /5C29E098)
@@ -806,7 +806,7 @@
   )
 
   (module Mounting_Holes:MountingHole_3mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C2986D7)
-    (at 223.266 151.13)
+    (at 39 105)
     (descr "Mounting Hole 3mm, no annular")
     (tags "mounting hole 3mm no annular")
     (path /5C29E146)
@@ -886,7 +886,7 @@
   )
 
   (module Mounting_Holes:MountingHole_3mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C2986F7)
-    (at 203.708 150.876)
+    (at 39 49)
     (descr "Mounting Hole 3mm, no annular")
     (tags "mounting hole 3mm no annular")
     (path /5C29E29F)
@@ -906,7 +906,7 @@
   )
 
   (module Mounting_Holes:MountingHole_3mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C2986FF)
-    (at 215.646 152.146)
+    (at 187 49)
     (descr "Mounting Hole 3mm, no annular")
     (tags "mounting hole 3mm no annular")
     (path /5C29E2FB)
@@ -926,7 +926,7 @@
   )
 
   (module Blue_ESC:Blue_ESC (layer F.Cu) (tedit 5BDBA94B) (tstamp 5C298712)
-    (at 47.244 70.8289 180)
+    (at 47 70 180)
     (path /5C324A6D)
     (fp_text reference U1 (at 0 10.16 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -959,7 +959,7 @@
   )
 
   (module Blue_ESC:Blue_ESC (layer F.Cu) (tedit 5BDBA94B) (tstamp 5C298725)
-    (at 76.962 70.8416 180)
+    (at 77 70 180)
     (path /5C32481F)
     (fp_text reference U2 (at 0 10.16 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -992,7 +992,7 @@
   )
 
   (module Blue_ESC:Blue_ESC (layer F.Cu) (tedit 5BDBA94B) (tstamp 5C298738)
-    (at 95.758 70.8416 180)
+    (at 95 70 180)
     (path /5C324647)
     (fp_text reference U3 (at 0 10.16 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1025,7 +1025,7 @@
   )
 
   (module Blue_ESC:Blue_ESC (layer F.Cu) (tedit 5BDBA94B) (tstamp 5C29874B)
-    (at 125.476 70.8924 180)
+    (at 125 70 180)
     (path /5C31FC02)
     (fp_text reference U4 (at 0 10.16 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
