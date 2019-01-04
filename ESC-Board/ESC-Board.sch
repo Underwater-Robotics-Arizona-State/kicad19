@@ -36,11 +36,11 @@ F 3 "" H 13950 1750 50  0001 C CNN
 	1    13950 2750
 	1    0    0    -1  
 $EndComp
-Text GLabel 13450 2750 0    50   Input ~ 0
-PWM_ESC_2
 Text GLabel 13450 3050 0    50   Input ~ 0
+PWM_ESC_2
+Text GLabel 13450 2750 0    50   Input ~ 0
 PWM_ESC_3
-Text GLabel 13450 3150 0    50   Input ~ 0
+Text GLabel 13450 2450 0    50   Input ~ 0
 PWM_ESC_4
 Wire Wire Line
 	4150 9450 4700 9450
@@ -118,8 +118,8 @@ $Comp
 L Device:Fuse F5
 U 1 1 5C1BC00C
 P 13850 1600
-F 0 "F5" H 13900 1650 50  0000 L CNN
-F 1 "500m" H 13900 1550 50  0000 L CNN
+F 0 "F5" H 13650 1650 50  0000 L CNN
+F 1 "500m" H 13600 1550 50  0000 L CNN
 F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering" V 13780 1600 50  0001 C CNN
 F 3 "" H 13850 1600 50  0001 C CNN
 	1    13850 1600
@@ -147,9 +147,9 @@ F 3 "" H 1850 1600 50  0001 C CNN
 	1    1850 1600
 	1    0    0    -1  
 $EndComp
-Text GLabel 13450 2550 0    50   Input ~ 0
+Text GLabel 12500 2550 0    50   Input ~ 0
 I2C_SDA
-Text GLabel 13450 2650 0    50   Input ~ 0
+Text GLabel 12500 2650 0    50   Input ~ 0
 I2C_SLC
 Text GLabel 2050 8950 0    50   Input ~ 0
 PWM_ESC_1
@@ -754,7 +754,7 @@ F 3 "" H 3050 9050 50  0001 C CNN
 	1    3050 9050
 	0    -1   -1   0   
 $EndComp
-Text GLabel 13450 2450 0    50   Input ~ 0
+Text GLabel 13450 3150 0    50   Input ~ 0
 PWM_ESC_1
 Text GLabel 10900 2450 1    50   Input ~ 0
 I2C_SDA
@@ -836,50 +836,6 @@ F 3 "~" H 14500 5250 50  0001 C CNN
 	1    14500 5250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Mechanical:MountingHole MH5
-U 1 1 5C29E1ED
-P 15250 4850
-F 0 "MH5" H 15350 4896 50  0000 L CNN
-F 1 "MountingHole" H 15350 4805 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 15250 4850 50  0001 C CNN
-F 3 "~" H 15250 4850 50  0001 C CNN
-	1    15250 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole MH6
-U 1 1 5C29E245
-P 15250 5050
-F 0 "MH6" H 15350 5096 50  0000 L CNN
-F 1 "MountingHole" H 15350 5005 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 15250 5050 50  0001 C CNN
-F 3 "~" H 15250 5050 50  0001 C CNN
-	1    15250 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole MH7
-U 1 1 5C29E29F
-P 15250 5250
-F 0 "MH7" H 15350 5296 50  0000 L CNN
-F 1 "MountingHole" H 15350 5205 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 15250 5250 50  0001 C CNN
-F 3 "~" H 15250 5250 50  0001 C CNN
-	1    15250 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole MH8
-U 1 1 5C29E2FB
-P 15250 5450
-F 0 "MH8" H 15350 5496 50  0000 L CNN
-F 1 "MountingHole" H 15350 5405 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 15250 5450 50  0001 C CNN
-F 3 "~" H 15250 5450 50  0001 C CNN
-	1    15250 5450
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	14250 5600 15950 5600
 Wire Notes Line
@@ -956,6 +912,93 @@ F 1 "GND" H 9850 1150 50  0000 R CNN
 F 2 "" H 9900 1250 50  0001 C CNN
 F 3 "" H 9900 1250 50  0001 C CNN
 	1    9900 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5C2F31D4
+P 12600 2400
+F 0 "R1" H 12670 2446 50  0000 L CNN
+F 1 "R" H 12670 2355 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 12530 2400 50  0001 C CNN
+F 3 "~" H 12600 2400 50  0001 C CNN
+	1    12600 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5C2F324A
+P 12600 2800
+F 0 "R2" H 12670 2846 50  0000 L CNN
+F 1 "R" H 12670 2755 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 12530 2800 50  0001 C CNN
+F 3 "~" H 12600 2800 50  0001 C CNN
+	1    12600 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13450 2550 12600 2550
+Connection ~ 12600 2550
+Wire Wire Line
+	12600 2550 12500 2550
+Wire Wire Line
+	13450 2650 12600 2650
+Connection ~ 12600 2650
+Wire Wire Line
+	12600 2650 12500 2650
+$Comp
+L power:+3.3V #PWR0132
+U 1 1 5C2F7A02
+P 14050 1750
+F 0 "#PWR0132" H 14050 1600 50  0001 C CNN
+F 1 "+3.3V" H 14000 1950 50  0000 C CNN
+F 2 "" H 14050 1750 50  0001 C CNN
+F 3 "" H 14050 1750 50  0001 C CNN
+	1    14050 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0133
+U 1 1 5C2F7B83
+P 12600 2250
+F 0 "#PWR0133" H 12600 2100 50  0001 C CNN
+F 1 "+3.3V" H 12550 2450 50  0000 C CNN
+F 2 "" H 12600 2250 50  0001 C CNN
+F 3 "" H 12600 2250 50  0001 C CNN
+	1    12600 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0134
+U 1 1 5C2F7BC8
+P 12600 2950
+F 0 "#PWR0134" H 12600 2800 50  0001 C CNN
+F 1 "+3.3V" H 12550 3150 50  0000 C CNN
+F 2 "" H 12600 2950 50  0001 C CNN
+F 3 "" H 12600 2950 50  0001 C CNN
+	1    12600 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0135
+U 1 1 5C2F7C47
+P 15250 1600
+F 0 "#PWR0135" H 15250 1450 50  0001 C CNN
+F 1 "+3.3V" H 15400 1650 50  0000 C CNN
+F 2 "" H 15250 1600 50  0001 C CNN
+F 3 "" H 15250 1600 50  0001 C CNN
+	1    15250 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5C2F7CC6
+P 15250 1600
+F 0 "#FLG0104" H 15250 1675 50  0001 C CNN
+F 1 "PWR_FLAG" H 15250 1774 50  0000 C CNN
+F 2 "" H 15250 1600 50  0001 C CNN
+F 3 "~" H 15250 1600 50  0001 C CNN
+	1    15250 1600
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
