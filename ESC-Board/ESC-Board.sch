@@ -150,7 +150,7 @@ $EndComp
 Text GLabel 12500 2550 0    50   Input ~ 0
 I2C_SDA
 Text GLabel 12500 2650 0    50   Input ~ 0
-I2C_SLC
+I2C_SCL
 Text GLabel 2050 8950 0    50   Input ~ 0
 PWM_ESC_1
 Wire Notes Line
@@ -760,10 +760,6 @@ Text GLabel 10900 2450 1    50   Input ~ 0
 I2C_SDA
 Text GLabel 10900 4350 1    50   Input ~ 0
 I2C_SDA
-Text GLabel 10800 4350 1    50   Input ~ 0
-I2C_SLC
-Text GLabel 10800 2450 1    50   Input ~ 0
-I2C_SLC
 $Comp
 L power:GND #PWR0127
 U 1 1 5C325D70
@@ -967,4 +963,8 @@ NoConn ~ 10300 4450
 NoConn ~ 10400 4450
 NoConn ~ 10500 4450
 NoConn ~ 10600 4450
+Text GLabel 10800 2450 1    50   Input ~ 0
+I2C_SCL
+Text GLabel 10800 4350 1    50   Input ~ 0
+I2C_SCL
 $EndSCHEMATC
