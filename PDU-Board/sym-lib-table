@@ -2,4 +2,6 @@
   (lib (name Vicor-Q-DCDC)(type Legacy)(uri C:/Users/c01t0/Documents/NASAGRRRR/KiCAD/PDU-Board/Vicor-Q-DCDC.lib)(options "")(descr ""))
   (lib (name PDU-Board-cache)(type Legacy)(uri "C:/Users/Colton Kohnen/Desktop/PDU-Board/PDU-Board-cache.lib")(options "")(descr ""))
   (lib (name Vicor)(type Legacy)(uri C:/Users/c01t0/Documents/GitHub/kicad19/PDU-Board/Vicor.lib)(options "")(descr ""))
+  (lib (name ESC)(type Legacy)(uri "C:/Users/Colton Kohnen/Documents/GitHub/kicad19/ESC-Board/ESC.lib")(options "")(descr ""))
+  (lib (name ESC-Board-cache)(type Legacy)(uri "C:/Users/Colton Kohnen/Documents/GitHub/kicad19/ESC-Board/ESC-Board-cache.lib")(options "")(descr ""))
 )

@@ -1,3 +1,4 @@
 (fp_lib_table
+  (lib (name Blue_ESC)(type KiCad)(uri ${KIPRJMOD}/Blue_ESC.pretty)(options "")(descr ""))
   (lib (name Vicor)(type KiCad)(uri ${KIPRJMOD}/Vicor.pretty)(options "")(descr ""))
 )
