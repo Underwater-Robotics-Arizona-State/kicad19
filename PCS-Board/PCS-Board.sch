@@ -202,21 +202,21 @@ F 3 "" H 7800 1900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 7800 1900
-Text GLabel 9600 1900 2    50   Input ~ 0
+Text GLabel 4100 3100 2    50   Input ~ 0
 SOLN_EN0
-Text GLabel 9600 2000 2    50   Input ~ 0
+Text GLabel 4100 3300 2    50   Input ~ 0
 SOLN_EN1
-Text GLabel 9600 2100 2    50   Input ~ 0
+Text GLabel 4100 3500 2    50   Input ~ 0
 SOLN_EN2
-Text GLabel 9600 2200 2    50   Input ~ 0
+Text GLabel 4100 3700 2    50   Input ~ 0
 SOLN_EN3
-Text GLabel 9600 2300 2    50   Input ~ 0
+Text GLabel 4100 4550 2    50   Input ~ 0
 SOLN_EN4
-Text GLabel 9600 2400 2    50   Input ~ 0
+Text GLabel 4100 4750 2    50   Input ~ 0
 SOLN_EN5
-Text GLabel 9600 2500 2    50   Input ~ 0
+Text GLabel 4100 4950 2    50   Input ~ 0
 SOLN_EN6
-Text GLabel 9600 2600 2    50   Input ~ 0
+Text GLabel 4100 5150 2    50   Input ~ 0
 SOLN_EN7
 $Comp
 L power:GND #PWR?
@@ -412,65 +412,65 @@ Data and Power\n
 $Comp
 L MMPQ2222A:MMPQ2222A U?
 U 1 1 5C3558EC
-P 2050 3950
-F 0 "U?" H 2050 4620 50  0000 C CNN
-F 1 "MMPQ2222A" H 2050 4529 50  0000 C CNN
-F 2 "SOIC127P600X175-16N" H 2050 3950 50  0001 L BNN
-F 3 "MMPQ2222A" H 2050 3950 50  0001 L BNN
-F 4 "Unavailable" H 2050 3950 50  0001 L BNN "Field4"
-F 5 "MMPQ Series NPN 40 V 500 mA 1000 mW SMT General Purpose Amplifier - SOIC-16" H 2050 3950 50  0001 L BNN "Field5"
-F 6 "SOIC-16 ON Semiconductor" H 2050 3950 50  0001 L BNN "Field6"
-F 7 "ON Semiconductor" H 2050 3950 50  0001 L BNN "Field7"
-F 8 "None" H 2050 3950 50  0001 L BNN "Field8"
-	1    2050 3950
+P 3400 3400
+F 0 "U?" H 3400 4070 50  0000 C CNN
+F 1 "MMPQ2222A" H 3400 3979 50  0000 C CNN
+F 2 "SOIC127P600X175-16N" H 3400 3400 50  0001 L BNN
+F 3 "MMPQ2222A" H 3400 3400 50  0001 L BNN
+F 4 "Unavailable" H 3400 3400 50  0001 L BNN "Field4"
+F 5 "MMPQ Series NPN 40 V 500 mA 1000 mW SMT General Purpose Amplifier - SOIC-16" H 3400 3400 50  0001 L BNN "Field5"
+F 6 "SOIC-16 ON Semiconductor" H 3400 3400 50  0001 L BNN "Field6"
+F 7 "ON Semiconductor" H 3400 3400 50  0001 L BNN "Field7"
+F 8 "None" H 3400 3400 50  0001 L BNN "Field8"
+	1    3400 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L MMPQ2222A:MMPQ2222A U?
 U 1 1 5C413089
-P 2050 5400
-F 0 "U?" H 2050 6070 50  0000 C CNN
-F 1 "MMPQ2222A" H 2050 5979 50  0000 C CNN
-F 2 "SOIC127P600X175-16N" H 2050 5400 50  0001 L BNN
-F 3 "MMPQ2222A" H 2050 5400 50  0001 L BNN
-F 4 "Unavailable" H 2050 5400 50  0001 L BNN "Field4"
-F 5 "MMPQ Series NPN 40 V 500 mA 1000 mW SMT General Purpose Amplifier - SOIC-16" H 2050 5400 50  0001 L BNN "Field5"
-F 6 "SOIC-16 ON Semiconductor" H 2050 5400 50  0001 L BNN "Field6"
-F 7 "ON Semiconductor" H 2050 5400 50  0001 L BNN "Field7"
-F 8 "None" H 2050 5400 50  0001 L BNN "Field8"
-	1    2050 5400
+P 3400 4850
+F 0 "U?" H 3400 5520 50  0000 C CNN
+F 1 "MMPQ2222A" H 3400 5429 50  0000 C CNN
+F 2 "SOIC127P600X175-16N" H 3400 4850 50  0001 L BNN
+F 3 "MMPQ2222A" H 3400 4850 50  0001 L BNN
+F 4 "Unavailable" H 3400 4850 50  0001 L BNN "Field4"
+F 5 "MMPQ Series NPN 40 V 500 mA 1000 mW SMT General Purpose Amplifier - SOIC-16" H 3400 4850 50  0001 L BNN "Field5"
+F 6 "SOIC-16 ON Semiconductor" H 3400 4850 50  0001 L BNN "Field6"
+F 7 "ON Semiconductor" H 3400 4850 50  0001 L BNN "Field7"
+F 8 "None" H 3400 4850 50  0001 L BNN "Field8"
+	1    3400 4850
 	1    0    0    -1  
 $EndComp
 $Comp
 L MMPQ2222A:MMPQ2222A U?
 U 1 1 5C413295
-P 4200 3950
-F 0 "U?" H 4200 4620 50  0000 C CNN
-F 1 "MMPQ2222A" H 4200 4529 50  0000 C CNN
-F 2 "SOIC127P600X175-16N" H 4200 3950 50  0001 L BNN
-F 3 "MMPQ2222A" H 4200 3950 50  0001 L BNN
-F 4 "Unavailable" H 4200 3950 50  0001 L BNN "Field4"
-F 5 "MMPQ Series NPN 40 V 500 mA 1000 mW SMT General Purpose Amplifier - SOIC-16" H 4200 3950 50  0001 L BNN "Field5"
-F 6 "SOIC-16 ON Semiconductor" H 4200 3950 50  0001 L BNN "Field6"
-F 7 "ON Semiconductor" H 4200 3950 50  0001 L BNN "Field7"
-F 8 "None" H 4200 3950 50  0001 L BNN "Field8"
-	1    4200 3950
+P 5800 3400
+F 0 "U?" H 5800 4070 50  0000 C CNN
+F 1 "MMPQ2222A" H 5800 3979 50  0000 C CNN
+F 2 "SOIC127P600X175-16N" H 5800 3400 50  0001 L BNN
+F 3 "MMPQ2222A" H 5800 3400 50  0001 L BNN
+F 4 "Unavailable" H 5800 3400 50  0001 L BNN "Field4"
+F 5 "MMPQ Series NPN 40 V 500 mA 1000 mW SMT General Purpose Amplifier - SOIC-16" H 5800 3400 50  0001 L BNN "Field5"
+F 6 "SOIC-16 ON Semiconductor" H 5800 3400 50  0001 L BNN "Field6"
+F 7 "ON Semiconductor" H 5800 3400 50  0001 L BNN "Field7"
+F 8 "None" H 5800 3400 50  0001 L BNN "Field8"
+	1    5800 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L MMPQ2222A:MMPQ2222A U?
 U 1 1 5C41331C
-P 4200 5400
-F 0 "U?" H 4200 6070 50  0000 C CNN
-F 1 "MMPQ2222A" H 4200 5979 50  0000 C CNN
-F 2 "SOIC127P600X175-16N" H 4200 5400 50  0001 L BNN
-F 3 "MMPQ2222A" H 4200 5400 50  0001 L BNN
-F 4 "Unavailable" H 4200 5400 50  0001 L BNN "Field4"
-F 5 "MMPQ Series NPN 40 V 500 mA 1000 mW SMT General Purpose Amplifier - SOIC-16" H 4200 5400 50  0001 L BNN "Field5"
-F 6 "SOIC-16 ON Semiconductor" H 4200 5400 50  0001 L BNN "Field6"
-F 7 "ON Semiconductor" H 4200 5400 50  0001 L BNN "Field7"
-F 8 "None" H 4200 5400 50  0001 L BNN "Field8"
-	1    4200 5400
+P 5800 4850
+F 0 "U?" H 5800 5520 50  0000 C CNN
+F 1 "MMPQ2222A" H 5800 5429 50  0000 C CNN
+F 2 "SOIC127P600X175-16N" H 5800 4850 50  0001 L BNN
+F 3 "MMPQ2222A" H 5800 4850 50  0001 L BNN
+F 4 "Unavailable" H 5800 4850 50  0001 L BNN "Field4"
+F 5 "MMPQ Series NPN 40 V 500 mA 1000 mW SMT General Purpose Amplifier - SOIC-16" H 5800 4850 50  0001 L BNN "Field5"
+F 6 "SOIC-16 ON Semiconductor" H 5800 4850 50  0001 L BNN "Field6"
+F 7 "ON Semiconductor" H 5800 4850 50  0001 L BNN "Field7"
+F 8 "None" H 5800 4850 50  0001 L BNN "Field8"
+	1    5800 4850
 	1    0    0    -1  
 $EndComp
 Text GLabel 9600 4800 2    50   Input ~ 0
@@ -479,8 +479,372 @@ Text GLabel 9600 4900 2    50   Input ~ 0
 SOLN_EN14
 Text GLabel 9600 5000 2    50   Input ~ 0
 SOLN_EN15
-Text GLabel 5300 6200 2    50   Input ~ 0
+Text GLabel 2700 3100 0    50   Input ~ 0
 SOLN_PW0
-Text GLabel 5600 4300 2    50   Input ~ 0
-SOLN_PW0
+Text GLabel 2700 3200 0    50   Input ~ 0
+SOLN_PW1
+Text GLabel 2700 3300 0    50   Input ~ 0
+SOLN_PW2
+Text GLabel 2700 3400 0    50   Input ~ 0
+SOLN_PW4
+$Comp
+L Device:R R?
+U 1 1 5C41F35A
+P 2550 3600
+F 0 "R?" V 2500 3750 50  0000 C CNN
+F 1 "R" V 2500 3450 50  0000 C CNN
+F 2 "" V 2480 3600 50  0001 C CNN
+F 3 "~" H 2550 3600 50  0001 C CNN
+	1    2550 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C41F79C
+P 2550 3700
+F 0 "R?" V 2500 3850 50  0000 C CNN
+F 1 "R" V 2500 3550 50  0000 C CNN
+F 2 "" V 2480 3700 50  0001 C CNN
+F 3 "~" H 2550 3700 50  0001 C CNN
+	1    2550 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C41F7C0
+P 2550 3800
+F 0 "R?" V 2500 3950 50  0000 C CNN
+F 1 "R" V 2500 3650 50  0000 C CNN
+F 2 "" V 2480 3800 50  0001 C CNN
+F 3 "~" H 2550 3800 50  0001 C CNN
+	1    2550 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C41F7EA
+P 2550 3900
+F 0 "R?" V 2500 4050 50  0000 C CNN
+F 1 "R" V 2500 3750 50  0000 C CNN
+F 2 "" V 2480 3900 50  0001 C CNN
+F 3 "~" H 2550 3900 50  0001 C CNN
+	1    2550 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C41F812
+P 4950 3600
+F 0 "R?" V 4900 3750 50  0000 C CNN
+F 1 "R" V 4900 3450 50  0000 C CNN
+F 2 "" V 4880 3600 50  0001 C CNN
+F 3 "~" H 4950 3600 50  0001 C CNN
+	1    4950 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C41F86A
+P 4950 3700
+F 0 "R?" V 4900 3850 50  0000 C CNN
+F 1 "R" V 4900 3550 50  0000 C CNN
+F 2 "" V 4880 3700 50  0001 C CNN
+F 3 "~" H 4950 3700 50  0001 C CNN
+	1    4950 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C41F896
+P 4950 3800
+F 0 "R?" V 4900 3950 50  0000 C CNN
+F 1 "R" V 4900 3650 50  0000 C CNN
+F 2 "" V 4880 3800 50  0001 C CNN
+F 3 "~" H 4950 3800 50  0001 C CNN
+	1    4950 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C41F8C4
+P 4950 3900
+F 0 "R?" V 4900 4050 50  0000 C CNN
+F 1 "R" V 4900 3750 50  0000 C CNN
+F 2 "" V 4880 3900 50  0001 C CNN
+F 3 "~" H 4950 3900 50  0001 C CNN
+	1    4950 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C4204A0
+P 4950 5350
+F 0 "R?" V 4900 5500 50  0000 C CNN
+F 1 "R" V 4900 5200 50  0000 C CNN
+F 2 "" V 4880 5350 50  0001 C CNN
+F 3 "~" H 4950 5350 50  0001 C CNN
+	1    4950 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C42050C
+P 4950 5250
+F 0 "R?" V 4900 5400 50  0000 C CNN
+F 1 "R" V 4900 5100 50  0000 C CNN
+F 2 "" V 4880 5250 50  0001 C CNN
+F 3 "~" H 4950 5250 50  0001 C CNN
+	1    4950 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C420576
+P 4950 5150
+F 0 "R?" V 4900 5300 50  0000 C CNN
+F 1 "R" V 4900 5000 50  0000 C CNN
+F 2 "" V 4880 5150 50  0001 C CNN
+F 3 "~" H 4950 5150 50  0001 C CNN
+	1    4950 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C4205DA
+P 4950 5050
+F 0 "R?" V 4900 5200 50  0000 C CNN
+F 1 "R" V 4900 4900 50  0000 C CNN
+F 2 "" V 4880 5050 50  0001 C CNN
+F 3 "~" H 4950 5050 50  0001 C CNN
+	1    4950 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C42063C
+P 2550 5050
+F 0 "R?" V 2500 5200 50  0000 C CNN
+F 1 "R" V 2500 4900 50  0000 C CNN
+F 2 "" V 2480 5050 50  0001 C CNN
+F 3 "~" H 2550 5050 50  0001 C CNN
+	1    2550 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C4206A0
+P 2550 5150
+F 0 "R?" V 2500 5300 50  0000 C CNN
+F 1 "R" V 2500 5000 50  0000 C CNN
+F 2 "" V 2480 5150 50  0001 C CNN
+F 3 "~" H 2550 5150 50  0001 C CNN
+	1    2550 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C4206DC
+P 2550 5250
+F 0 "R?" V 2500 5400 50  0000 C CNN
+F 1 "R" V 2500 5100 50  0000 C CNN
+F 2 "" V 2480 5250 50  0001 C CNN
+F 3 "~" H 2550 5250 50  0001 C CNN
+	1    2550 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C42071A
+P 2550 5350
+F 0 "R?" V 2500 5500 50  0000 C CNN
+F 1 "R" V 2500 5200 50  0000 C CNN
+F 2 "" V 2480 5350 50  0001 C CNN
+F 3 "~" H 2550 5350 50  0001 C CNN
+	1    2550 5350
+	0    1    1    0   
+$EndComp
+Text GLabel 9600 1900 2    50   Input ~ 0
+SOLN_EN0
+Text GLabel 9600 2000 2    50   Input ~ 0
+SOLN_EN1
+Text GLabel 9600 2100 2    50   Input ~ 0
+SOLN_EN2
+Text GLabel 9600 2200 2    50   Input ~ 0
+SOLN_EN3
+Text GLabel 9600 2300 2    50   Input ~ 0
+SOLN_EN4
+Text GLabel 9600 2400 2    50   Input ~ 0
+SOLN_EN5
+Text GLabel 9600 2500 2    50   Input ~ 0
+SOLN_EN6
+Text GLabel 9600 2600 2    50   Input ~ 0
+SOLN_EN7
+Text GLabel 6500 3100 2    50   Input ~ 0
+SOLN_EN8
+Text GLabel 6500 3300 2    50   Input ~ 0
+SOLN_EN9
+Text GLabel 6500 3500 2    50   Input ~ 0
+SOLN_EN10
+Text GLabel 6500 3700 2    50   Input ~ 0
+SOLN_EN11
+Text GLabel 6500 4550 2    50   Input ~ 0
+SOLN_EN12
+Text GLabel 6500 4750 2    50   Input ~ 0
+SOLN_EN13
+Text GLabel 6500 4950 2    50   Input ~ 0
+SOLN_EN14
+Text GLabel 6500 5150 2    50   Input ~ 0
+SOLN_EN15
+NoConn ~ 4100 3200
+NoConn ~ 4100 3400
+NoConn ~ 4100 3600
+NoConn ~ 4100 3800
+NoConn ~ 4100 4650
+NoConn ~ 4100 4850
+NoConn ~ 4100 5050
+NoConn ~ 4100 5250
+NoConn ~ 6500 3200
+NoConn ~ 6500 3400
+NoConn ~ 6500 3600
+NoConn ~ 6500 3800
+NoConn ~ 6500 4650
+NoConn ~ 6500 4850
+NoConn ~ 6500 5050
+NoConn ~ 6500 5250
+Text GLabel 5100 3100 0    50   Input ~ 0
+SOLN_PW8
+Text GLabel 5100 3200 0    50   Input ~ 0
+SOLN_PW9
+Text GLabel 5100 3300 0    50   Input ~ 0
+SOLN_PW10
+Text GLabel 5100 3400 0    50   Input ~ 0
+SOLN_PW11
+Text GLabel 2700 4550 0    50   Input ~ 0
+SOLN_PW4
+Text GLabel 2700 4650 0    50   Input ~ 0
+SOLN_PW5
+Text GLabel 2700 4750 0    50   Input ~ 0
+SOLN_PW6
+Text GLabel 2700 4850 0    50   Input ~ 0
+SOLN_PW7
+Text GLabel 5100 4550 0    50   Input ~ 0
+SOLN_PW12
+Text GLabel 5100 4650 0    50   Input ~ 0
+SOLN_PW13
+Text GLabel 5100 4750 0    50   Input ~ 0
+SOLN_PW14
+Text GLabel 5100 4850 0    50   Input ~ 0
+SOLN_PW15
+Wire Wire Line
+	4800 5050 4750 5050
+Wire Wire Line
+	4750 5050 4750 5150
+Wire Wire Line
+	4750 5150 4800 5150
+Wire Wire Line
+	4750 5150 4750 5250
+Wire Wire Line
+	4750 5250 4800 5250
+Connection ~ 4750 5150
+Wire Wire Line
+	4750 5250 4750 5350
+Wire Wire Line
+	4750 5350 4800 5350
+Connection ~ 4750 5250
+Wire Wire Line
+	2400 5050 2350 5050
+Wire Wire Line
+	2350 5050 2350 5150
+Wire Wire Line
+	2350 5150 2400 5150
+Wire Wire Line
+	2350 5150 2350 5250
+Wire Wire Line
+	2350 5250 2400 5250
+Connection ~ 2350 5150
+Wire Wire Line
+	2350 5250 2350 5350
+Wire Wire Line
+	2350 5350 2400 5350
+Connection ~ 2350 5250
+Wire Wire Line
+	2400 3600 2350 3600
+Wire Wire Line
+	2350 3600 2350 3700
+Wire Wire Line
+	2350 3700 2400 3700
+Wire Wire Line
+	2350 3700 2350 3800
+Wire Wire Line
+	2350 3800 2400 3800
+Connection ~ 2350 3700
+Wire Wire Line
+	2350 3800 2350 3900
+Wire Wire Line
+	2350 3900 2400 3900
+Connection ~ 2350 3800
+Wire Wire Line
+	4800 3600 4750 3600
+Wire Wire Line
+	4750 3600 4750 3700
+Wire Wire Line
+	4750 3700 4800 3700
+Wire Wire Line
+	4750 3700 4750 3800
+Wire Wire Line
+	4750 3800 4800 3800
+Connection ~ 4750 3700
+Wire Wire Line
+	4750 3800 4750 3900
+Wire Wire Line
+	4750 3900 4800 3900
+Connection ~ 4750 3800
+$Comp
+L power:+12V #PWR?
+U 1 1 5C431B5C
+P 2350 3900
+F 0 "#PWR?" H 2350 3750 50  0001 C CNN
+F 1 "+12V" H 2300 4050 50  0000 L CNN
+F 2 "" H 2350 3900 50  0001 C CNN
+F 3 "" H 2350 3900 50  0001 C CNN
+	1    2350 3900
+	-1   0    0    1   
+$EndComp
+Connection ~ 2350 3900
+$Comp
+L power:+12V #PWR?
+U 1 1 5C431D00
+P 4750 3900
+F 0 "#PWR?" H 4750 3750 50  0001 C CNN
+F 1 "+12V" H 4700 4050 50  0000 L CNN
+F 2 "" H 4750 3900 50  0001 C CNN
+F 3 "" H 4750 3900 50  0001 C CNN
+	1    4750 3900
+	-1   0    0    1   
+$EndComp
+Connection ~ 4750 3900
+$Comp
+L power:+12V #PWR?
+U 1 1 5C431D3B
+P 4750 5350
+F 0 "#PWR?" H 4750 5200 50  0001 C CNN
+F 1 "+12V" H 4700 5500 50  0000 L CNN
+F 2 "" H 4750 5350 50  0001 C CNN
+F 3 "" H 4750 5350 50  0001 C CNN
+	1    4750 5350
+	-1   0    0    1   
+$EndComp
+Connection ~ 4750 5350
+$Comp
+L power:+12V #PWR?
+U 1 1 5C431D76
+P 2350 5350
+F 0 "#PWR?" H 2350 5200 50  0001 C CNN
+F 1 "+12V" H 2300 5500 50  0000 L CNN
+F 2 "" H 2350 5350 50  0001 C CNN
+F 3 "" H 2350 5350 50  0001 C CNN
+	1    2350 5350
+	-1   0    0    1   
+$EndComp
+Connection ~ 2350 5350
 $EndSCHEMATC
