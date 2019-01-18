@@ -479,4 +479,8 @@ Text GLabel 9600 4900 2    50   Input ~ 0
 SOLN_EN14
 Text GLabel 9600 5000 2    50   Input ~ 0
 SOLN_EN15
+Text GLabel 5300 6200 2    50   Input ~ 0
+SOLN_PW0
+Text GLabel 5600 4300 2    50   Input ~ 0
+SOLN_PW0
 $EndSCHEMATC
