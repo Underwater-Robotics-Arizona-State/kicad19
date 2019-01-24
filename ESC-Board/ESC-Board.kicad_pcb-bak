@@ -468,13 +468,13 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 5C3276A1) (tstamp 5C327EAF)
+  (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 5C49310B) (tstamp 5C327EAF)
     (at 33 45)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (path /5C29E146)
     (attr virtual)
-    (fp_text reference MH3 (at 0 -4.2) (layer F.SilkS) hide
+    (fp_text reference " MH3" (at 0 -4.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 4.2) (layer F.Fab)
@@ -1282,7 +1282,7 @@
       (net 3 GND))
   )
 
-  (gr_text "Airzona State Underwater Robotics ESC Board\n" (at 112.8 43.7) (layer F.SilkS)
+  (gr_text "Airzona State Underwater Robotics ESC Board 2019 rev.0\n" (at 112.8 43.7) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 29 109) (end 29 41) (layer Edge.Cuts) (width 0.15))
