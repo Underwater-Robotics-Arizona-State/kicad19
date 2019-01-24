@@ -847,4 +847,12 @@ F 3 "" H 2350 5350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Connection ~ 2350 5350
+Wire Notes Line
+	7000 5700 7000 2450
+Wire Notes Line
+	7000 2450 2150 2450
+Wire Notes Line
+	2150 2450 2150 5700
+Wire Notes Line
+	2150 5700 7000 5700
 $EndSCHEMATC
