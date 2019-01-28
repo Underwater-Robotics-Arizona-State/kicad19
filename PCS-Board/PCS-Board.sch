@@ -512,8 +512,8 @@ $Comp
 L Connector:DB25_Female_MountingHoles J?
 U 1 1 5C4A3C5B
 P 1950 5650
-F 0 "J?" H 2150 6950 50  0000 L CNN
-F 1 "DB25_Female_MountingHoles" H 2100 4350 50  0000 L CNN
+F 0 "J?" H 1700 6950 50  0000 L CNN
+F 1 "DB25_Female_MountingHoles" H 800 4250 50  0000 L CNN
 F 2 "" H 1950 5650 50  0001 C CNN
 F 3 " ~" H 1950 5650 50  0001 C CNN
 	1    1950 5650
@@ -579,10 +579,6 @@ NoConn ~ 2250 6150
 NoConn ~ 2250 6350
 NoConn ~ 2250 6550
 NoConn ~ 2250 6750
-Wire Notes Line
-	5450 600  600  600 
-Wire Notes Line
-	600  3850 5450 3850
 $Comp
 L Device:R R?
 U 1 1 5C41F8C4
@@ -788,4 +784,22 @@ F 3 "" H 2950 1250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 2950 1250
+Wire Notes Line
+	5800 3850 5800 600 
+Wire Notes Line
+	600  600  5800 600 
+Wire Notes Line
+	600  3850 5800 3850
+$Comp
+L power:+12V #PWR?
+U 1 1 5C4EBC37
+P 2950 2700
+F 0 "#PWR?" H 2950 2550 50  0001 C CNN
+F 1 "+12V" V 2965 2828 50  0000 L CNN
+F 2 "" H 2950 2700 50  0001 C CNN
+F 3 "" H 2950 2700 50  0001 C CNN
+	1    2950 2700
+	0    1    1    0   
+$EndComp
+Connection ~ 2950 2700
 $EndSCHEMATC
