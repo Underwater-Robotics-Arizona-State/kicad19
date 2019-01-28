@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name PCS-Board)(type KiCad)(uri "C:/Users/Colton Kohnen/Documents/GitHub/kicad19/PCS-Board")(options "")(descr ""))
+  (lib (name .pretty)(type KiCad)(uri ${KIPRJMOD}/.pretty)(options "")(descr ""))
 )
