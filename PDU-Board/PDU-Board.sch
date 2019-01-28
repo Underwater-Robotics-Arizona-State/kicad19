@@ -446,8 +446,6 @@ F 3 "" H 8300 2750 50  0001 C CNN
 	1    8300 2750
 	0    1    1    0   
 $EndComp
-NoConn ~ 9750 3600
-NoConn ~ 9650 3600
 NoConn ~ 9150 3600
 NoConn ~ 9050 3600
 Text GLabel 9150 2600 2    50   Input ~ 0
@@ -477,51 +475,7 @@ F 3 "" H 9650 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mechanical:MountingHole MH1
-U 1 1 5C331EC5
-P 8550 4800
-F 0 "MH1" H 8650 4846 50  0000 L CNN
-F 1 "MountingHole" H 8650 4755 50  0000 L CNN
-F 2 "Blue_ESC:MountingHole_3mm_custom" H 8550 4800 50  0001 C CNN
-F 3 "~" H 8550 4800 50  0001 C CNN
-	1    8550 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole MH2
-U 1 1 5C332065
-P 8550 5000
-F 0 "MH2" H 8650 5046 50  0000 L CNN
-F 1 "MountingHole" H 8650 4955 50  0000 L CNN
-F 2 "Blue_ESC:MountingHole_3mm_custom" H 8550 5000 50  0001 C CNN
-F 3 "~" H 8550 5000 50  0001 C CNN
-	1    8550 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole MH3
-U 1 1 5C33209F
-P 8550 5200
-F 0 "MH3" H 8650 5246 50  0000 L CNN
-F 1 "MountingHole" H 8650 5155 50  0000 L CNN
-F 2 "Blue_ESC:MountingHole_3mm_custom" H 8550 5200 50  0001 C CNN
-F 3 "~" H 8550 5200 50  0001 C CNN
-	1    8550 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole MH4
-U 1 1 5C3320EB
-P 8550 5400
-F 0 "MH4" H 8650 5446 50  0000 L CNN
-F 1 "MountingHole" H 8650 5355 50  0000 L CNN
-F 2 "Blue_ESC:MountingHole_3mm_custom" H 8550 5400 50  0001 C CNN
-F 3 "~" H 8550 5400 50  0001 C CNN
-	1    8550 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L TMP235:ESC:TMP235A2DBZT U5
+L TMP235:ESC_TMP235A2DBZT U5
 U 1 1 5C333407
 P 8750 2600
 F 0 "U5" H 8725 3015 50  0000 C CNN
@@ -532,7 +486,7 @@ F 3 "" H 8950 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TMP235:ESC:TMP235A2DBZT U6
+L TMP235:ESC_TMP235A2DBZT U6
 U 1 1 5C333447
 P 10100 2600
 F 0 "U6" H 10075 3015 50  0000 C CNN
@@ -542,4 +496,59 @@ F 3 "" H 10300 2650 50  0001 C CNN
 	1    10100 2600
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:RJ45 J5
+U 1 1 5C4E792D
+P 9450 5600
+F 0 "J5" V 9552 5170 50  0000 R CNN
+F 1 "RJ45" V 9461 5170 50  0000 R CNN
+F 2 "Connectors:RJ45_8" V 9450 5625 50  0001 C CNN
+F 3 "~" V 9450 5625 50  0001 C CNN
+	1    9450 5600
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9250 5200 1    50   Input ~ 0
+Ext_Temp_1
+Text GLabel 9350 5200 1    50   Input ~ 0
+Ext_Temp_0
+$Comp
+L ESC-Board-cache:+3.3V #PWR0129
+U 1 1 5C4E7B27
+P 9450 5200
+F 0 "#PWR0129" H 9450 5050 50  0001 C CNN
+F 1 "+3.3V" V 9450 5450 50  0000 C CNN
+F 2 "" H 9450 5200 50  0001 C CNN
+F 3 "" H 9450 5200 50  0001 C CNN
+	1    9450 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0130
+U 1 1 5C4E7B4A
+P 9550 5200
+F 0 "#PWR0130" H 9550 4950 50  0001 C CNN
+F 1 "GND" V 9550 5000 50  0000 C CNN
+F 2 "" H 9550 5200 50  0001 C CNN
+F 3 "" H 9550 5200 50  0001 C CNN
+	1    9550 5200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9750 3600 10250 3600
+Wire Wire Line
+	10250 3600 10250 5200
+Wire Wire Line
+	10250 5200 9750 5200
+Wire Wire Line
+	9650 5200 9650 5100
+Wire Wire Line
+	9650 5100 10350 5100
+Wire Wire Line
+	10350 5100 10350 3550
+Wire Wire Line
+	10350 3550 9650 3550
+Wire Wire Line
+	9650 3550 9650 3600
+NoConn ~ 9150 5200
+NoConn ~ 9050 5200
 $EndSCHEMATC
