@@ -1,0 +1,195 @@
+Cmp-Mod V01 Created by PcbNew   date = 1/29/2019 2:29:38 PM
+
+BeginCmp
+TimeStamp = 5C68FFFC
+Path = /5C342410
+Reference = J2;
+ValeurCmp = Conn_01x04;
+IdModule  = Connector_Molex:Molex_Micro-Fit_3.0_43045-0410_2x02-1MP_P3.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4F8CAF
+Path = /5C4A3C5B
+Reference = J1;
+ValeurCmp = DB25_Female_MountingHoles;
+IdModule  = PCS-Board:Dsub 25pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4F8D11
+Path = /5C4F8D1F
+Reference = MH1;
+ValeurCmp = MountingHole;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4F8D19
+Path = /5C4F8EFA
+Reference = MH2;
+ValeurCmp = MountingHole;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4F8D21
+Path = /5C4F8F40
+Reference = MH3;
+ValeurCmp = MountingHole;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4F8D29
+Path = /5C4F8F84
+Reference = MH4;
+ValeurCmp = MountingHole;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4F8D3A
+Path = /5C41F35A
+Reference = R1;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4F8D4B
+Path = /5C41F79C
+Reference = R2;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4F8D5C
+Path = /5C41F7C0
+Reference = R3;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4F8D6D
+Path = /5C41F7EA
+Reference = R4;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4F8D7E
+Path = /5C42063C
+Reference = R5;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4F8D8F
+Path = /5C4206A0
+Reference = R6;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4F8DA0
+Path = /5C4206DC
+Reference = R7;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4F8DB1
+Path = /5C42071A
+Reference = R8;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4F8DC2
+Path = /5C41F812
+Reference = R9;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4F8DD3
+Path = /5C41F86A
+Reference = R10;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4F8DE4
+Path = /5C41F896
+Reference = R11;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4F8DF5
+Path = /5C41F8C4
+Reference = R12;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4F8E0F
+Path = /5C3558EC
+Reference = U1;
+ValeurCmp = MMPQ2222A;
+IdModule  = .pretty:Soc-16;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4F8E29
+Path = /5C413089
+Reference = U2;
+ValeurCmp = MMPQ2222A;
+IdModule  = .pretty:Soc-16;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4F8E43
+Path = /5C413295
+Reference = U3;
+ValeurCmp = MMPQ2222A;
+IdModule  = .pretty:Soc-16;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4F8E6B
+Path = /5C3434C8
+Reference = U4;
+ValeurCmp = uA7805;
+IdModule  = TO_SOT_Packages_SMD:TO-263-3_TabPin2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C68F433
+Path = /5C342112
+Reference = U5;
+ValeurCmp = ADG715;
+IdModule  = .pretty:TSSOP-24;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C68F45E
+Path = /5C3466E2
+Reference = U6;
+ValeurCmp = ADG715;
+IdModule  = .pretty:TSSOP-24;
+EndCmp
+
+EndListe
