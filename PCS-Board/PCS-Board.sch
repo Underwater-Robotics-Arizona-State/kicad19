@@ -31,7 +31,7 @@ U 1 1 5C342410
 P 7000 2450
 F 0 "J2" H 6920 2025 50  0000 C CNN
 F 1 "Conn_01x04" H 6920 2116 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0415_2x02_P3.00mm_Vertical" H 7000 2450 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MicroFit_3.0-43045-0410_04x3.00mm_Angled" H 7000 2450 50  0001 C CNN
 F 3 "~" H 7000 2450 50  0001 C CNN
 	1    7000 2450
 	-1   0    0    1   

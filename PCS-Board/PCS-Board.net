@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source C:\Users\c01t0\Documents\GitHub\kicad19\PCS-Board\PCS-Board.sch)
-    (date "1/29/2019 2:27:18 PM")
+    (source "C:\\Users\\Colton Kohnen\\Documents\\GitHub\\kicad19\\PCS-Board\\PCS-Board.sch")
+    (date "1/29/2019 8:12:07 PM")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -24,7 +24,7 @@
       (tstamp 5C342112))
     (comp (ref J2)
       (value Conn_01x04)
-      (footprint Connector_Molex:Molex_Micro-Fit_3.0_43045-0415_2x02_P3.00mm_Vertical)
+      (footprint Connectors_Molex:Molex_MicroFit_3.0-43045-0410_04x3.00mm_Angled)
       (datasheet ~)
       (libsource (lib Connector_Generic) (part Conn_01x04) (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
@@ -355,7 +355,7 @@
     (library (logical Device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib"))
     (library (logical MMPQ2222A)
-      (uri C:\Users\c01t0\Documents\GitHub\kicad19\PCS-Board/MMPQ2222A.lib))
+      (uri "C:\\Users\\Colton Kohnen\\Documents\\GitHub\\kicad19\\PCS-Board/MMPQ2222A.lib"))
     (library (logical Mechanical)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Mechanical.lib"))
     (library (logical Regulator_Linear)
