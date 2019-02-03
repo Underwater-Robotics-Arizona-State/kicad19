@@ -403,7 +403,6 @@ NoConn ~ 3650 1900
 NoConn ~ 3750 1900
 NoConn ~ 1950 1900
 NoConn ~ 2050 1900
-NoConn ~ 13450 3450
 NoConn ~ 13450 3350
 NoConn ~ 13450 3250
 NoConn ~ 13450 2950
@@ -950,9 +949,7 @@ F 3 "" H 12600 2950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 NoConn ~ 10200 2550
-NoConn ~ 10300 2550
 NoConn ~ 10200 4450
-NoConn ~ 10300 4450
 Text GLabel 10800 2450 1    50   Input ~ 0
 I2C_SCL
 Text GLabel 10800 4350 1    50   Input ~ 0
@@ -1083,4 +1080,10 @@ Wire Wire Line
 	14650 3350 14450 3350
 Wire Wire Line
 	14650 3450 14450 3450
+Text GLabel 10300 4450 1    50   Input ~ 0
+EXT_Water_Sensor
+Text GLabel 10300 2550 1    50   Input ~ 0
+EXT_Water_Sensor
+Text GLabel 13450 3450 0    50   Input ~ 0
+EXT_Water_Sensor
 $EndSCHEMATC

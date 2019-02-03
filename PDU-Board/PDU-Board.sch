@@ -446,7 +446,6 @@ F 3 "" H 8300 2750 50  0001 C CNN
 	1    8300 2750
 	0    1    1    0   
 $EndComp
-NoConn ~ 9150 3600
 NoConn ~ 9050 3600
 Text GLabel 9150 2600 2    50   Input ~ 0
 Ext_Temp_1
@@ -549,6 +548,9 @@ Wire Wire Line
 	10350 3550 9650 3550
 Wire Wire Line
 	9650 3550 9650 3600
-NoConn ~ 9150 5200
 NoConn ~ 9050 5200
+Text GLabel 9150 5200 1    50   Input ~ 0
+Water_Sensor
+Text GLabel 9150 3600 1    50   Input ~ 0
+Water_Sensor
 $EndSCHEMATC

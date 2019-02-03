@@ -1075,9 +1075,9 @@ Text GLabel 10500 2550 1    50   Input ~ 0
 Ext_Temp_0
 Text GLabel 10400 2550 1    50   Input ~ 0
 Ext_Temp_1
-Text GLabel 14650 3350 2    50   Input ~ 0
-Ext_Temp_0
 Text GLabel 14650 3450 2    50   Input ~ 0
+Ext_Temp_0
+Text GLabel 14650 3350 2    50   Input ~ 0
 Ext_Temp_1
 Wire Wire Line
 	14650 3350 14450 3350
