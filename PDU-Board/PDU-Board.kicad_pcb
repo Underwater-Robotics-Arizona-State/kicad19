@@ -3,10 +3,10 @@
   (general
     (thickness 1.6)
     (drawings 6)
-    (tracks 31)
+    (tracks 36)
     (zones 0)
     (modules 12)
-    (nets 13)
+    (nets 12)
   )
 
   (page A3)
@@ -106,8 +106,7 @@
   (net 8 +3V3)
   (net 9 "Net-(J4-Pad2)")
   (net 10 "Net-(J4-Pad1)")
-  (net 11 "Net-(J5-Pad8)")
-  (net 12 Water_Sensor)
+  (net 11 Water_Sensor)
 
   (net_class Default "This is the default net class."
     (clearance 0.1524)
@@ -126,7 +125,6 @@
     (add_net "Net-(J4-Pad1)")
     (add_net "Net-(J4-Pad2)")
     (add_net "Net-(J4-Pad8)")
-    (add_net "Net-(J5-Pad8)")
     (add_net Water_Sensor)
   )
 
@@ -387,7 +385,7 @@
     (pad 8 thru_hole circle (at 8.89 -2.54) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
       (net 5 "Net-(J4-Pad8)"))
     (pad 7 thru_hole circle (at 7.62 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
-      (net 12 Water_Sensor))
+      (net 11 Water_Sensor))
     (pad 6 thru_hole circle (at 6.35 -2.54) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
       (net 6 Ext_Temp_1))
     (pad 5 thru_hole circle (at 5.08 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
@@ -644,9 +642,9 @@
     (fp_line (start 12.07 -3.81) (end 12.06 5.18) (layer F.SilkS) (width 0.12))
     (fp_line (start -3.17 14.22) (end 12.07 14.22) (layer F.SilkS) (width 0.12))
     (pad 8 thru_hole circle (at 8.89 -2.54) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
-      (net 11 "Net-(J5-Pad8)"))
+      (net 5 "Net-(J4-Pad8)"))
     (pad 7 thru_hole circle (at 7.62 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
-      (net 12 Water_Sensor))
+      (net 11 Water_Sensor))
     (pad 6 thru_hole circle (at 6.35 -2.54) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
       (net 6 Ext_Temp_1))
     (pad 5 thru_hole circle (at 5.08 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask)
@@ -680,6 +678,11 @@
   )
 
   (segment (start 183.04 125.5) (end 183.04 106) (width 0.1524) (layer F.Cu) (net 4) (status C00000))
+  (segment (start 189.39 122.96) (end 189.39 114.29) (width 0.1524) (layer F.Cu) (net 5) (status 400000))
+  (segment (start 189.39 107.21) (end 189.39 103.46) (width 0.1524) (layer F.Cu) (net 5) (tstamp 5C5A3404) (status 800000))
+  (segment (start 188.6 108) (end 189.39 107.21) (width 0.1524) (layer F.Cu) (net 5) (tstamp 5C5A3402))
+  (segment (start 188.6 113.5) (end 188.6 108) (width 0.1524) (layer F.Cu) (net 5) (tstamp 5C5A33FD))
+  (segment (start 189.39 114.29) (end 188.6 113.5) (width 0.1524) (layer F.Cu) (net 5) (tstamp 5C5A33F9))
   (segment (start 186.85 122.96) (end 186.85 103.46) (width 0.1524) (layer F.Cu) (net 6) (status C00000))
   (segment (start 187.5 123) (end 198.1 133.6) (width 0.1524) (layer B.Cu) (net 6) (tstamp 5C4F0B79) (status 400000))
   (segment (start 198.1 133.6) (end 234 133.6) (width 0.1524) (layer B.Cu) (net 6) (tstamp 5C4F0B7A) (status 800000))
@@ -709,7 +712,7 @@
   (segment (start 181.2 111.4) (end 180.5 110.7) (width 0.1524) (layer F.Cu) (net 10) (tstamp 5C4EE0CE))
   (segment (start 181.2 113.3) (end 181.2 111.4) (width 0.1524) (layer F.Cu) (net 10) (tstamp 5C4EE0CC))
   (segment (start 180.5 114) (end 181.2 113.3) (width 0.1524) (layer F.Cu) (net 10) (tstamp 5C4EE0CB))
-  (segment (start 188.12 125.5) (end 188.12 106) (width 0.1524) (layer F.Cu) (net 12) (status C00000))
+  (segment (start 188.12 125.5) (end 188.12 106) (width 0.1524) (layer F.Cu) (net 11) (status C00000))
 
   (zone (net 3) (net_name +12V) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
