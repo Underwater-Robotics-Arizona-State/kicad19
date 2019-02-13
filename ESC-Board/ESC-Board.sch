@@ -404,7 +404,6 @@ NoConn ~ 3750 1900
 NoConn ~ 1950 1900
 NoConn ~ 2050 1900
 NoConn ~ 13450 3350
-NoConn ~ 13450 3250
 NoConn ~ 13450 2950
 NoConn ~ 13450 2850
 $Comp
@@ -1078,12 +1077,6 @@ Wire Wire Line
 	14650 3350 14450 3350
 Wire Wire Line
 	14650 3450 14450 3450
-Text GLabel 10300 4450 1    50   Input ~ 0
-EXT_Water_Sensor
-Text GLabel 10300 2550 1    50   Input ~ 0
-EXT_Water_Sensor
-Text GLabel 13450 3450 0    50   Input ~ 0
-EXT_Water_Sensor
 $Comp
 L power:+5V #PWR?
 U 1 1 5C5A7FFD
@@ -1106,4 +1099,11 @@ F 3 "" H 10200 2550 50  0001 C CNN
 	1    10200 2550
 	1    0    0    -1  
 $EndComp
+Text GLabel 13450 3250 0    50   Input ~ 0
+EXT_PWM_LED
+NoConn ~ 13450 3450
+Text GLabel 10300 2550 1    50   Input ~ 0
+EXT_PWM_LED
+Text GLabel 10300 4450 1    50   Input ~ 0
+EXT_PWM_LED
 $EndSCHEMATC

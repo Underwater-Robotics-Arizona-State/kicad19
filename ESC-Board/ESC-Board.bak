@@ -948,8 +948,6 @@ F 3 "" H 12600 2950 50  0001 C CNN
 	1    12600 2950
 	-1   0    0    1   
 $EndComp
-NoConn ~ 10200 2550
-NoConn ~ 10200 4450
 Text GLabel 10800 2450 1    50   Input ~ 0
 I2C_SCL
 Text GLabel 10800 4350 1    50   Input ~ 0
@@ -1086,4 +1084,26 @@ Text GLabel 10300 2550 1    50   Input ~ 0
 EXT_Water_Sensor
 Text GLabel 13450 3450 0    50   Input ~ 0
 EXT_Water_Sensor
+$Comp
+L power:+5V #PWR?
+U 1 1 5C5A7FFD
+P 10200 4450
+F 0 "#PWR?" H 10200 4300 50  0001 C CNN
+F 1 "+5V" H 10215 4623 50  0000 C CNN
+F 2 "" H 10200 4450 50  0001 C CNN
+F 3 "" H 10200 4450 50  0001 C CNN
+	1    10200 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5C5A8045
+P 10200 2550
+F 0 "#PWR?" H 10200 2400 50  0001 C CNN
+F 1 "+5V" H 10215 2723 50  0000 C CNN
+F 2 "" H 10200 2550 50  0001 C CNN
+F 3 "" H 10200 2550 50  0001 C CNN
+	1    10200 2550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
