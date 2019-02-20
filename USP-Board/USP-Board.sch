@@ -142,4 +142,185 @@ Wire Notes Line
 	3000 2850 3000 700 
 Wire Notes Line
 	950  700  3000 700 
+$Comp
+L Connector:RJ45 J?
+U 1 1 5C6DE016
+P 9850 2350
+F 0 "J?" V 9952 1920 50  0000 R CNN
+F 1 "RJ45" V 9861 1920 50  0000 R CNN
+F 2 "" V 9850 2375 50  0001 C CNN
+F 3 "~" V 9850 2375 50  0001 C CNN
+	1    9850 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5C6DE0A6
+P 9450 1950
+F 0 "#PWR?" H 9450 1800 50  0001 C CNN
+F 1 "+5V" V 9450 2150 50  0000 C CNN
+F 2 "" H 9450 1950 50  0001 C CNN
+F 3 "" H 9450 1950 50  0001 C CNN
+	1    9450 1950
+	1    0    0    -1  
+$EndComp
+Text GLabel 9550 1950 1    50   Input ~ 0
+EXT_PWM_LED
+Text GLabel 9650 1950 1    50   Input ~ 0
+EXT_Temp_1
+Text GLabel 9750 1950 1    50   Input ~ 0
+EXT_Temp_0
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C6DE2D4
+P 9850 1950
+F 0 "#PWR?" H 9850 1800 50  0001 C CNN
+F 1 "+3.3V" V 9850 2200 50  0000 C CNN
+F 2 "" H 9850 1950 50  0001 C CNN
+F 3 "" H 9850 1950 50  0001 C CNN
+	1    9850 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C6DE388
+P 9950 1950
+F 0 "#PWR?" H 9950 1700 50  0001 C CNN
+F 1 "GND" V 9950 1750 50  0000 C CNN
+F 2 "" H 9950 1950 50  0001 C CNN
+F 3 "" H 9950 1950 50  0001 C CNN
+	1    9950 1950
+	-1   0    0    1   
+$EndComp
+Text GLabel 10050 1950 1    50   Input ~ 0
+I2C_SCL
+Text GLabel 10150 1950 1    50   Input ~ 0
+I2C_SDA
+$Comp
+L Connector:RJ45 J?
+U 1 1 5C6DE972
+P 9850 3750
+F 0 "J?" V 9952 3320 50  0000 R CNN
+F 1 "RJ45" V 9861 3320 50  0000 R CNN
+F 2 "" V 9850 3775 50  0001 C CNN
+F 3 "~" V 9850 3775 50  0001 C CNN
+	1    9850 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5C6DE979
+P 9450 3350
+F 0 "#PWR?" H 9450 3200 50  0001 C CNN
+F 1 "+5V" V 9450 3550 50  0000 C CNN
+F 2 "" H 9450 3350 50  0001 C CNN
+F 3 "" H 9450 3350 50  0001 C CNN
+	1    9450 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 9550 3350 1    50   Input ~ 0
+EXT_PWM_LED
+Text GLabel 9650 3350 1    50   Input ~ 0
+EXT_Temp_1
+Text GLabel 9750 3350 1    50   Input ~ 0
+EXT_Temp_0
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C6DE982
+P 9850 3350
+F 0 "#PWR?" H 9850 3200 50  0001 C CNN
+F 1 "+3.3V" V 9850 3600 50  0000 C CNN
+F 2 "" H 9850 3350 50  0001 C CNN
+F 3 "" H 9850 3350 50  0001 C CNN
+	1    9850 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C6DE988
+P 9950 3350
+F 0 "#PWR?" H 9950 3100 50  0001 C CNN
+F 1 "GND" V 9950 3150 50  0000 C CNN
+F 2 "" H 9950 3350 50  0001 C CNN
+F 3 "" H 9950 3350 50  0001 C CNN
+	1    9950 3350
+	-1   0    0    1   
+$EndComp
+Text GLabel 10050 3350 1    50   Input ~ 0
+I2C_SCL
+Text GLabel 10150 3350 1    50   Input ~ 0
+I2C_SDA
+$Comp
+L Analog_ADC:ADS1015IDGS U?
+U 1 1 5C6DF5CB
+P 5250 1950
+F 0 "U?" H 5250 2628 50  0000 C CNN
+F 1 "ADS1015IDGS" H 5250 2537 50  0000 C CNN
+F 2 "Package_SO:TSSOP-10_3x3mm_P0.5mm" H 5250 1450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ads1015.pdf" H 5200 1050 50  0001 C CNN
+	1    5250 1950
+	1    0    0    -1  
+$EndComp
+Text GLabel 5650 1950 2    50   Input ~ 0
+I2C_SCL
+Text GLabel 5650 2050 2    50   Input ~ 0
+I2C_SDA
+$Comp
+L power:GND #PWR?
+U 1 1 5C6E015F
+P 5250 2350
+F 0 "#PWR?" H 5250 2100 50  0001 C CNN
+F 1 "GND" H 5255 2177 50  0000 C CNN
+F 2 "" H 5250 2350 50  0001 C CNN
+F 3 "" H 5250 2350 50  0001 C CNN
+	1    5250 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5C6E0A3E
+P 7300 1950
+F 0 "J?" H 7220 1525 50  0000 C CNN
+F 1 "Conn_01x04" H 7220 1616 50  0000 C CNN
+F 2 "" H 7300 1950 50  0001 C CNN
+F 3 "~" H 7300 1950 50  0001 C CNN
+	1    7300 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C6E0F3C
+P 7500 2050
+F 0 "#PWR?" H 7500 1800 50  0001 C CNN
+F 1 "GND" V 7505 1922 50  0000 R CNN
+F 2 "" H 7500 2050 50  0001 C CNN
+F 3 "" H 7500 2050 50  0001 C CNN
+	1    7500 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C6E0F9E
+P 7500 1950
+F 0 "#PWR?" H 7500 1800 50  0001 C CNN
+F 1 "+3.3V" V 7515 2078 50  0000 L CNN
+F 2 "" H 7500 1950 50  0001 C CNN
+F 3 "" H 7500 1950 50  0001 C CNN
+	1    7500 1950
+	0    1    1    0   
+$EndComp
+Text GLabel 7500 1850 2    50   Input ~ 0
+I2C_SCL
+Text GLabel 7500 1750 2    50   Input ~ 0
+I2C_SDA
+Wire Notes Line
+	6950 2450 8450 2450
+Wire Notes Line
+	8450 2450 8450 1200
+Wire Notes Line
+	8450 1200 6950 1200
+Wire Notes Line
+	6950 1200 6950 2450
+Text Notes 7450 1350 0    50   ~ 0
+Depht/Temp\n
 $EndSCHEMATC
