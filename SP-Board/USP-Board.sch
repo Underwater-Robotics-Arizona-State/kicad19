@@ -323,4 +323,153 @@ Wire Notes Line
 	6950 1200 6950 2450
 Text Notes 7450 1350 0    50   ~ 0
 Depht/Temp\n
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C6F22AD
+P 7200 3450
+F 0 "J?" H 7120 3125 50  0000 C CNN
+F 1 "Conn_01x02" H 7120 3216 50  0000 C CNN
+F 2 "" H 7200 3450 50  0001 C CNN
+F 3 "~" H 7200 3450 50  0001 C CNN
+	1    7200 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C6F2330
+P 7400 3350
+F 0 "#PWR?" H 7400 3100 50  0001 C CNN
+F 1 "GND" V 7405 3222 50  0000 R CNN
+F 2 "" H 7400 3350 50  0001 C CNN
+F 3 "" H 7400 3350 50  0001 C CNN
+	1    7400 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5C6F23A3
+P 7400 3450
+F 0 "#PWR?" H 7400 3300 50  0001 C CNN
+F 1 "+12V" V 7415 3578 50  0000 L CNN
+F 2 "" H 7400 3450 50  0001 C CNN
+F 3 "" H 7400 3450 50  0001 C CNN
+	1    7400 3450
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	6950 3650 8400 3650
+Wire Notes Line
+	8400 3650 8400 2750
+Wire Notes Line
+	8400 2750 6950 2750
+Wire Notes Line
+	6950 2750 6950 3650
+Text Notes 7600 2950 0    50   ~ 0
+XT60\n
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C6F2A9B
+P 1500 3700
+F 0 "J?" H 1420 3375 50  0000 C CNN
+F 1 "Conn_01x02" H 1420 3466 50  0000 C CNN
+F 2 "" H 1500 3700 50  0001 C CNN
+F 3 "~" H 1500 3700 50  0001 C CNN
+	1    1500 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C6F2AFB
+P 1500 4150
+F 0 "J?" H 1420 3825 50  0000 C CNN
+F 1 "Conn_01x02" H 1420 3916 50  0000 C CNN
+F 2 "" H 1500 4150 50  0001 C CNN
+F 3 "~" H 1500 4150 50  0001 C CNN
+	1    1500 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C6F2B6A
+P 1500 4600
+F 0 "J?" H 1420 4275 50  0000 C CNN
+F 1 "Conn_01x02" H 1420 4366 50  0000 C CNN
+F 2 "" H 1500 4600 50  0001 C CNN
+F 3 "~" H 1500 4600 50  0001 C CNN
+	1    1500 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C6F2BA4
+P 1500 5050
+F 0 "J?" H 1420 4725 50  0000 C CNN
+F 1 "Conn_01x02" H 1420 4816 50  0000 C CNN
+F 2 "" H 1500 5050 50  0001 C CNN
+F 3 "~" H 1500 5050 50  0001 C CNN
+	1    1500 5050
+	-1   0    0    1   
+$EndComp
+Text GLabel 1700 3700 2    50   Input ~ 0
+Leak_Probe
+Text GLabel 1700 4150 2    50   Input ~ 0
+Leak_Probe
+Text GLabel 1700 4600 2    50   Input ~ 0
+Leak_Probe
+Text GLabel 1700 5050 2    50   Input ~ 0
+Leak_Probe
+$Comp
+L power:GND #PWR?
+U 1 1 5C6F390D
+P 1700 4500
+F 0 "#PWR?" H 1700 4250 50  0001 C CNN
+F 1 "GND" V 1705 4372 50  0000 R CNN
+F 2 "" H 1700 4500 50  0001 C CNN
+F 3 "" H 1700 4500 50  0001 C CNN
+	1    1700 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C6F396A
+P 1700 4050
+F 0 "#PWR?" H 1700 3800 50  0001 C CNN
+F 1 "GND" V 1705 3922 50  0000 R CNN
+F 2 "" H 1700 4050 50  0001 C CNN
+F 3 "" H 1700 4050 50  0001 C CNN
+	1    1700 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C6F3993
+P 1700 3600
+F 0 "#PWR?" H 1700 3350 50  0001 C CNN
+F 1 "GND" V 1705 3472 50  0000 R CNN
+F 2 "" H 1700 3600 50  0001 C CNN
+F 3 "" H 1700 3600 50  0001 C CNN
+	1    1700 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C6F39BC
+P 1700 4950
+F 0 "#PWR?" H 1700 4700 50  0001 C CNN
+F 1 "GND" V 1705 4822 50  0000 R CNN
+F 2 "" H 1700 4950 50  0001 C CNN
+F 3 "" H 1700 4950 50  0001 C CNN
+	1    1700 4950
+	0    -1   -1   0   
+$EndComp
+Wire Notes Line
+	1150 5250 2350 5250
+Wire Notes Line
+	2350 5250 2350 3150
+Wire Notes Line
+	2350 3150 1150 3150
+Wire Notes Line
+	1150 3150 1150 5250
+Text Notes 1550 3250 0    50   ~ 0
+Leak Probes\n
 $EndSCHEMATC
