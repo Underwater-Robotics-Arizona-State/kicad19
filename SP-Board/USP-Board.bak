@@ -462,4 +462,14 @@ F 3 "" H 1700 4950 50  0001 C CNN
 	1    1700 4950
 	0    -1   -1   0   
 $EndComp
+Wire Notes Line
+	1150 5250 2350 5250
+Wire Notes Line
+	2350 5250 2350 3150
+Wire Notes Line
+	2350 3150 1150 3150
+Wire Notes Line
+	1150 3150 1150 5250
+Text Notes 1550 3250 0    50   ~ 0
+Leak Probes\n
 $EndSCHEMATC
