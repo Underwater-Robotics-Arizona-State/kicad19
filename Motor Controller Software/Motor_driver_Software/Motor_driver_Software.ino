@@ -74,7 +74,7 @@ void currentRead()
 
 void motorWrite(Servo selectedMotor)
 {
-  Serial.print("Enter speed value in microseconds: ");
+  Serial.print("Enter speed value in microseconds: ");        // Prompt user for ESC speed
   
   while(Serial.available == 0)
     delay(10);
