@@ -1,3 +1,5 @@
+#include <MS5837.h>
+
 /*  NASGR I2C Motor Driver
  *   
  *  
@@ -13,6 +15,7 @@ const int tempControl = 100;
 
 void setup() {
   // put your setup code here, to run once:
+  MS5837();
   pinMode(temp1,INPUT);
   pinMode(temp2,INPUT);
 
