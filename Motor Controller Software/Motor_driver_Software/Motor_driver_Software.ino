@@ -1,6 +1,6 @@
 /*  NASGR I2C Motor Driver
  *   
- *  Designed by Colton Kohnen
+ *  
  *  
  *  
  *  This Code Was Designed For the NASGR Robot 
