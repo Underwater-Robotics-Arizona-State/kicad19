@@ -24,10 +24,10 @@ void loop() {
   int temp2_val = analogRead(temp2);
 
   if(temp1>=tempControl){
-    // power off
+    // shut off esc
   }
   if(temp2>=100){
-    // shut off
+    // shut off esc
   }
 
 }
