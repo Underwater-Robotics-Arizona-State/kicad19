@@ -9,15 +9,15 @@
  */
 
 // test code
-int temp1 = A0;
-int temp2 = A1;
+MS5837 temp_sensor1;
+MS5837 temp_sensor2;
 const int tempControl = 100;
 
 void setup() {
   // put your setup code here, to run once:
   MS5837();
-  pinMode(temp1,INPUT);
-  pinMode(temp2,INPUT);
+  temp_sensor1.setModel(MS5837::MS5837_30BA);
+  temp_sensor2.setModel(MS5837::MS5837_30BA);
 
 }
 
