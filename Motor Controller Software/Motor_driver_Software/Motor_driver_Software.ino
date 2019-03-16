@@ -23,13 +23,15 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  int temp1_val = analogRead(temp1);
-  int temp2_val = analogRead(temp2);
+  temp_sensor1.read()
+  temp_sensor2.read()
+  int temp1_val = temp_sensor1.temperature();
+  int temp2_val = temp_sensor2.temperature();
 
-  if(temp1>=tempControl){
+  if(temp1_val>=tempControl){
     // shut off esc
   }
-  if(temp2>=100){
+  if(temp2_val>=100){
     // shut off esc
   }
 
