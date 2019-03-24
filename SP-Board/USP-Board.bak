@@ -606,4 +606,12 @@ Wire Wire Line
 Connection ~ 5250 1400
 Wire Wire Line
 	5250 1400 5250 1450
+Text GLabel 5650 2150 2    50   Input ~ 0
+I2C_SDA
+Text GLabel 7400 5950 2    50   Input ~ 0
+ANLG_Induction_SENS
+Text GLabel 4850 1850 0    50   Input ~ 0
+ANLG_Induction_SENS
+Text GLabel 4850 1950 0    50   Input ~ 0
+Leak_Sig
 $EndSCHEMATC
