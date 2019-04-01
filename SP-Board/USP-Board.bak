@@ -741,4 +741,23 @@ Wire Wire Line
 Connection ~ 4250 4200
 NoConn ~ 7400 4450
 NoConn ~ 7400 4550
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 5C9EDC18
+P 2450 6200
+F 0 "J?" H 2500 6617 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 2500 6526 50  0000 C CNN
+F 2 "" H 2450 6200 50  0001 C CNN
+F 3 "~" H 2450 6200 50  0001 C CNN
+	1    2450 6200
+	1    0    0    -1  
+$EndComp
+Text Notes 3050 6000 0    50   ~ 0
+TX 232
+Text Notes 3000 6450 0    50   ~ 0
+RX 232\n
+Text Notes 5250 6450 0    50   ~ 0
+TX UART (IMU)
+Text Notes 5250 6000 0    50   ~ 0
+RX UART (IMU)
 $EndSCHEMATC

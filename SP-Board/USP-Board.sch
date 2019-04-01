@@ -760,4 +760,28 @@ Text Notes 5250 6450 0    50   ~ 0
 TX UART (IMU)
 Text Notes 5250 6000 0    50   ~ 0
 RX UART (IMU)
+Wire Wire Line
+	2250 6300 2000 6300
+Wire Wire Line
+	2000 6300 2000 5650
+Wire Wire Line
+	2000 5650 3200 5650
+Wire Wire Line
+	3200 5650 3200 5850
+Wire Wire Line
+	3200 5850 3450 5850
+Wire Wire Line
+	3450 6450 3400 6450
+Wire Wire Line
+	3400 6450 3400 6300
+Wire Wire Line
+	3400 6300 2750 6300
+NoConn ~ 2250 6000
+NoConn ~ 2250 6100
+NoConn ~ 2250 6200
+NoConn ~ 2250 6400
+NoConn ~ 2750 6400
+NoConn ~ 2750 6200
+NoConn ~ 2750 6100
+NoConn ~ 2750 6000
 $EndSCHEMATC
