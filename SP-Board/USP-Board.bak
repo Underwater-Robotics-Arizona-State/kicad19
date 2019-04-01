@@ -323,39 +323,6 @@ Wire Notes Line
 	6950 1200 6950 2450
 Text Notes 7450 1350 0    50   ~ 0
 Depht/Temp\n
-$Comp
-L Connector_Generic:Conn_01x02 J5
-U 1 1 5C6F22AD
-P 7200 3450
-F 0 "J5" H 7120 3125 50  0000 C CNN
-F 1 "Conn_01x02" H 7120 3216 50  0000 C CNN
-F 2 "" H 7200 3450 50  0001 C CNN
-F 3 "~" H 7200 3450 50  0001 C CNN
-	1    7200 3450
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0112
-U 1 1 5C6F2330
-P 7400 3350
-F 0 "#PWR0112" H 7400 3100 50  0001 C CNN
-F 1 "GND" V 7405 3222 50  0000 R CNN
-F 2 "" H 7400 3350 50  0001 C CNN
-F 3 "" H 7400 3350 50  0001 C CNN
-	1    7400 3350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+12V #PWR0113
-U 1 1 5C6F23A3
-P 7400 3450
-F 0 "#PWR0113" H 7400 3300 50  0001 C CNN
-F 1 "+12V" V 7415 3578 50  0000 L CNN
-F 2 "" H 7400 3450 50  0001 C CNN
-F 3 "" H 7400 3450 50  0001 C CNN
-	1    7400 3450
-	0    1    1    0   
-$EndComp
 Wire Notes Line
 	6950 3650 8400 3650
 Wire Notes Line
@@ -483,29 +450,7 @@ F 3 "~" H 7200 4550 50  0001 C CNN
 	1    7200 4550
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:GND #PWR0118
-U 1 1 5C6F62AC
-P 7400 4650
-F 0 "#PWR0118" H 7400 4400 50  0001 C CNN
-F 1 "GND" V 7405 4522 50  0000 R CNN
-F 2 "" H 7400 4650 50  0001 C CNN
-F 3 "" H 7400 4650 50  0001 C CNN
-	1    7400 4650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+12V #PWR0119
-U 1 1 5C6F6333
-P 7400 4450
-F 0 "#PWR0119" H 7400 4300 50  0001 C CNN
-F 1 "+12V" V 7415 4578 50  0000 L CNN
-F 2 "" H 7400 4450 50  0001 C CNN
-F 3 "" H 7400 4450 50  0001 C CNN
-	1    7400 4450
-	0    1    1    0   
-$EndComp
-Text GLabel 7400 4550 2    50   Input ~ 0
+Text GLabel 7400 4650 2    50   Input ~ 0
 EXT_PWM_LED
 $Comp
 L Connector_Generic:Conn_01x04 J7
@@ -794,4 +739,6 @@ $EndComp
 Wire Wire Line
 	3550 4200 4250 4200
 Connection ~ 4250 4200
+NoConn ~ 7400 4450
+NoConn ~ 7400 4550
 $EndSCHEMATC
