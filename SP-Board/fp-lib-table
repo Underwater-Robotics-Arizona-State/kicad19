@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Blue_ESC)(type KiCad)(uri ${KIPRJMOD}/Blue_ESC.pretty)(options "")(descr ""))
+  (lib (name 2.54mm_Pin_Headers)(type KiCad)(uri ${KIPRJMOD}/2.54mm_Pin_Headers.pretty-master)(options "")(descr ""))
 )
