@@ -560,50 +560,6 @@ ANLG_HAL_SENS
 Text GLabel 4850 1950 0    50   Input ~ 0
 Leak_Sig
 $Comp
-L Mechanical:MountingHole H1
-U 1 1 5C84499E
-P 1200 6150
-F 0 "H1" H 1300 6196 50  0000 L CNN
-F 1 "MountingHole" H 1300 6105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm_Pad" H 1200 6150 50  0001 C CNN
-F 3 "~" H 1200 6150 50  0001 C CNN
-	1    1200 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5C8449DE
-P 1200 6500
-F 0 "H2" H 1300 6546 50  0000 L CNN
-F 1 "MountingHole" H 1300 6455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm_Pad" H 1200 6500 50  0001 C CNN
-F 3 "~" H 1200 6500 50  0001 C CNN
-	1    1200 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5C844A42
-P 1200 6900
-F 0 "H3" H 1300 6946 50  0000 L CNN
-F 1 "MountingHole" H 1300 6855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm_Pad" H 1200 6900 50  0001 C CNN
-F 3 "~" H 1200 6900 50  0001 C CNN
-	1    1200 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 5C844AA4
-P 1200 7200
-F 0 "H4" H 1300 7246 50  0000 L CNN
-F 1 "MountingHole" H 1300 7155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm_Pad" H 1200 7200 50  0001 C CNN
-F 3 "~" H 1200 7200 50  0001 C CNN
-	1    1200 7200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0125
 U 1 1 5C998D8E
 P 8250 6150
