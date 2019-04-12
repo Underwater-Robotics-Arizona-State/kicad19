@@ -16,6 +16,7 @@ void loop() {
   // When prompted to read current:
   if(Serial.available() > 0){
     escNum=Serial.read().toInt()
+    currentCurrent = currentRead(escNum);
      
   }
   
@@ -28,7 +29,6 @@ currentRead(int escNum){
      case 4: analogUse = analogPinA4// esc 3
      case 5: analogUse = analogPinA5// esc 4
   }
-int voltageVal = analogRead(analogUse); // reads voltage input
-
+  int voltageVal = analogRead(analogUse); // reads voltage input
   
 }
