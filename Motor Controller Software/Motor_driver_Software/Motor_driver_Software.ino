@@ -1,7 +1,6 @@
 @ -1,3 +1,6 @@
 #include <MS5837.h>
 #include <Wire.h>
-#define temp_sensor1_address 
 /*  NASGR I2C Motor Driver
  *   
  *  
@@ -35,7 +34,6 @@ void setup() {
   temp_sensor2.setModel(MS5837::MS5837_30BA);
   temp_sensor3.setModel(MS5837::MS5837_30BA);
   temp_sensor4.setModel(MS5837::MS5837_30BA);
-  temp_choice.setModel(MS5837::MS5837_30BA);
 
   esc1.attach(motorPin1,1000,2000);                       // Attach servos to respective pins
   esc2.attach(motorPin2,1000,2000);                       //
@@ -81,10 +79,11 @@ void loop() {
 
 void tempRead()
 {
-  temp_sensor1.read();
-  temp_sensor2.read();
-  temp_sensor3.read();
-  temp_sensor4.read();
+ 
+ // temp_sensor1.read();
+ // temp_sensor2.read();
+ // temp_sensor3.read();
+ // temp_sensor4.read();
   
   temp1_val = temp_sensor1.temperature();
   temp2_val = temp_sensor2.temperature();
