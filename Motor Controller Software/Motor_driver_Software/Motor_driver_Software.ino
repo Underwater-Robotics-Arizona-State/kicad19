@@ -36,6 +36,7 @@ void setup() {
   temp_sensor2.setModel(MS5837::MS5837_30BA);
   temp_sensor3.setModel(MS5837::MS5837_30BA);
   temp_sensor4.setModel(MS5837::MS5837_30BA);
+  temp_choice.setModel(MS5837::MS5837_30BA);
 
   esc1.attach(motorPin1,1000,2000);                       // Attach servos to respective pins
   esc2.attach(motorPin2,1000,2000);                       //
