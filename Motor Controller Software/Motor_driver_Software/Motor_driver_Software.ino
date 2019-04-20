@@ -24,6 +24,10 @@ MS5837 temp_sensor2;
 MS5837 temp_sensor3;
 MS5837 temp_sensor4;
 const int tempControl = 100;
+float voltageVal1
+float voltageVal2
+float voltageVal3
+float voltageVal4
 
 void setup() {
   // put your setup code here, to run once:
@@ -90,8 +94,16 @@ void tempRead()
   temp2_val = temp_sensor2.temperature();
   temp3_val = temp_sensor3.temperature();
   temp4_val = temp_sensor4.temperature();
-  
-  if(temp1_val>=tempControl)
+}
+
+void currentRead()
+{
+  currentCurrent = currentRead(escNum);
+}
+
+void checkShutoff()
+{
+    if(temp1_val>=tempControl)
   {
     esc1.writeMicroseconds(1500);
   }
@@ -107,11 +119,6 @@ void tempRead()
   {
     esc4.writeMicroseconds(1500);
   }
-}
-
-void currentRead()
-{
-  
 }
 
 void motorWrite(Servo selectedMotor)
