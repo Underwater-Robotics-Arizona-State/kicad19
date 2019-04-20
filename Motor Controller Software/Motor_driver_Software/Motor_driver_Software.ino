@@ -79,7 +79,7 @@ void loop() {
 
 void tempRead()
 {
-   temp_sensor1.read()
+  temp_sensor1.read()
   temp_sensor2.read()
   double temp1_val = temp_sensor1.temperature();
   double temp2_val = temp_sensor2.temperature();
