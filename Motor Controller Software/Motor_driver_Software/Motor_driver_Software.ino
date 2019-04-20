@@ -22,6 +22,9 @@ double temp2_val;
 Servo esc1, esc2, esc3, esc4, choice;
 MS5837 temp_sensor1;
 MS5837 temp_sensor2;
+MS5837 temp_sensor3;
+MS5837 temp_sensor4;
+MS5837 temp_choice;
 const int tempControl = 100;
 
 void setup() {
@@ -31,6 +34,8 @@ void setup() {
   MS5837();
   temp_sensor1.setModel(MS5837::MS5837_30BA);
   temp_sensor2.setModel(MS5837::MS5837_30BA);
+  temp_sensor3.setModel(MS5837::MS5837_30BA);
+  temp_sensor4.setModel(MS5837::MS5837_30BA);
 
   esc1.attach(motorPin1,1000,2000);                       // Attach servos to respective pins
   esc2.attach(motorPin2,1000,2000);                       //
@@ -81,8 +86,12 @@ void tempRead()
 {
   temp_sensor1.read()
   temp_sensor2.read()
-  double temp1_val = temp_sensor1.temperature();
-  double temp2_val = temp_sensor2.temperature();
+  temp_sensor3.read()
+  temp_sensor4.read()
+  temp1_val = temp_sensor1.temperature();
+  temp2_val = temp_sensor2.temperature();
+  temp3_val = temp_sensor3.temperature();
+  temp4_val = temp_sensor4.temperature();
 }
 
 void currentRead()
@@ -99,12 +108,18 @@ void motorWrite(Servo selectedMotor)
 
   while(Serial.available > 0)
   {
-  if(temp1_val>=tempControl){
-    // shut off esc
-    Wire.beginTransmission(//to master)
-  }
-  if(temp2_val>=tempControl){
-    // shut off esc
+    switch(selectedMotor)
+    {
+      case esc1:   temp_choice = temp_sensor1
+      case esc2:   temp_choice = temp_sensor2
+      case esc3:   temp_choice = temp_sensor3
+      case esc4:   temp_choice = temp_sensor4
+    }
+
+    if(temp_choice.temperature()>=tempControl)
+    {
+      selectedMotor.writeMicroseconds(1500)
+    }
     
   }
 }
