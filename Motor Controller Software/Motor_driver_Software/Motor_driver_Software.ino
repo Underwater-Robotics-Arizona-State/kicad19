@@ -24,7 +24,6 @@ MS5837 temp_sensor1;
 MS5837 temp_sensor2;
 MS5837 temp_sensor3;
 MS5837 temp_sensor4;
-MS5837 temp_choice;
 const int tempControl = 100;
 
 void setup() {
@@ -76,23 +75,38 @@ void loop() {
     
     motorWrite(choice);                                     // Enter motorWrite function
   // put your main code here, to run repeatedly:
-  if(Serial.available() > 0){
-
-  }
 
   delay(10);
 }
 
 void tempRead()
 {
-  temp_sensor1.read()
-  temp_sensor2.read()
-  temp_sensor3.read()
-  temp_sensor4.read()
+  temp_sensor1.read();
+  temp_sensor2.read();
+  temp_sensor3.read();
+  temp_sensor4.read();
+  
   temp1_val = temp_sensor1.temperature();
   temp2_val = temp_sensor2.temperature();
   temp3_val = temp_sensor3.temperature();
   temp4_val = temp_sensor4.temperature();
+  
+  if(temp1_val>=tempControl)
+  {
+    esc1.writeMicroseconds(1500);
+  }
+  if(temp2_val>=tempControl)
+  {
+    esc2.writeMicroseconds(1500);
+  }
+  if(temp3_val>=tempControl)
+  {
+    esc3.writeMicroseconds(1500);
+  }
+  if(temp4_val>=tempControl)
+  {
+    esc4.writeMicroseconds(1500);
+  }
 }
 
 void currentRead()
@@ -109,18 +123,7 @@ void motorWrite(Servo selectedMotor)
 
   while(Serial.available > 0)
   {
-    switch(selectedMotor)
-    {
-      case esc1:   temp_choice = temp_sensor1
-      case esc2:   temp_choice = temp_sensor2
-      case esc3:   temp_choice = temp_sensor3
-      case esc4:   temp_choice = temp_sensor4
-    }
 
-    if(temp_choice.temperature()>=tempControl)
-    {
-      selectedMotor.writeMicroseconds(1500)
-    }
     
   }
 }
